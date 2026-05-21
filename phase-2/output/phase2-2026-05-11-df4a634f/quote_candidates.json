@@ -1,0 +1,232 @@
+[
+  {
+    "quote_candidate_id": "theme_1-quote-1",
+    "review_id_hash": "5575de307b01cbceb4519a77d7f099c52e70e663f6414dc74768ed0d8cbbc052",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and High Charges",
+    "source": "play_store",
+    "rating": 3,
+    "review_date": "2026-05-09",
+    "quote_text": "Interface is good, Speed of placing order is good."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-2",
+    "review_id_hash": "113e8ae0dcd75ce8f627b0a0dc200f9b141970d0f331a78228b4ced589bfbe04",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and High Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "f&o charges very high and sometimes it's hang at the time of order placed poor app"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-3",
+    "review_id_hash": "1e683f938f91a82be4eec194827a6ea0d4f80093de1c93cc8c56587f4621c84c",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and High Charges",
+    "source": "play_store",
+    "rating": 3,
+    "review_date": "2026-05-05",
+    "quote_text": "very very poor responce from your champions despite several request and reminders."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-4",
+    "review_id_hash": "e4e44a95133e2162d97d2011866ceecb68d6d38a92585ceec10020d631702b0d",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and High Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-05",
+    "quote_text": "my P&L are profit but brokerage make me very loss."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-5",
+    "review_id_hash": "c2eafefb36b92593c6e266133eb12773afaf2ab42625cfba57332b3a10d8ddcc",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and High Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "Grow support customer care executive waiting time is very long upto 30min horrible support."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-1",
+    "review_id_hash": "f837a6d66c2b5d85d20c4141a9d13a501fd6fb7c7e5fd12227124603adf8ef09",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Functionality",
+    "source": "play_store",
+    "rating": 3,
+    "review_date": "2026-05-07",
+    "quote_text": "How vedanta is showing is 52 week high at 322 price."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-2",
+    "review_id_hash": "4cb0527d28495a777938486d3d12b75be72f942645cf0a0b1d9140002643cf82",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Functionality",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "lways mcx issues app don\u2019t have own system like ZERODHA u lose money if u stuck in partition issue"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-3",
+    "review_id_hash": "b27d4e46c58f8188d03a3536dfb800a200704452a40580e3c6767bfceeef250f",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Functionality",
+    "source": "play_store",
+    "rating": 3,
+    "review_date": "2026-05-07",
+    "quote_text": "Nee update version have so many glich....no one chart clearly visualized....I open one chart and it shows another"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-4",
+    "review_id_hash": "6c2bb4785c345f154c815b91ffb863eb76f8ef2ac1fa0e75daca1e47cf213528",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Functionality",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-05-05",
+    "quote_text": "from past 1week am observing hung, due to this delay/hung am not able to buy/sell accurately."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-5",
+    "review_id_hash": "2db3ac22c11b81904a9f51f8b0e2023230c3b4c1f4027dec93144479d8bd3699",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Functionality",
+    "source": "app_store",
+    "rating": 2,
+    "review_date": "2026-05-08",
+    "quote_text": "Always buy on higher price due to app fluctuation never buy on exact price"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-1",
+    "review_id_hash": "3582444a3a7b100f4f7938445515f203ade229c5514c7ae07fcd0d436ca5882d",
+    "theme_id": "theme_3",
+    "theme_name": "Ease of Use and Beginner Friendliness",
+    "source": "app_store",
+    "rating": 4,
+    "review_date": "2026-05-08",
+    "quote_text": "Easy to use and brokerage rates are reasonable."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-2",
+    "review_id_hash": "0970f1af260bdb4aeb50638fd72498f2576cb227e51074217208efe2a04dcd2d",
+    "theme_id": "theme_3",
+    "theme_name": "Ease of Use and Beginner Friendliness",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-05-09",
+    "quote_text": "Groww app is nice and easy to understand helpfull with mutual fund also can get loan againts it within minutes loved the app help full in emergency cases"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-3",
+    "review_id_hash": "e7b2b81c0e9625d2f1f88ecbeed8745f6f8bfadea0dcf0598c465e73e8a528e4",
+    "theme_id": "theme_3",
+    "theme_name": "Ease of Use and Beginner Friendliness",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-05-09",
+    "quote_text": "Best in the class, beginner friendly and very futuristic application.."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-4",
+    "review_id_hash": "5681d7a8c28101beb331c71e1ea9d24e9273d30b6ab8f1d0010a2ad9c9c1beae",
+    "theme_id": "theme_3",
+    "theme_name": "Ease of Use and Beginner Friendliness",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-05-08",
+    "quote_text": "Best app for stocks and mutual fund uhhhh can use without any kind of hesitation"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-5",
+    "review_id_hash": "ef8e30e87d2cf161d4f28fccceb05450ac8d8bfed31daee173cf9d7cedc11e8e",
+    "theme_id": "theme_3",
+    "theme_name": "Ease of Use and Beginner Friendliness",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-05-08",
+    "quote_text": "A great app for shares & mutual fund.I am unaware of bonds trade on it."
+  },
+  {
+    "quote_candidate_id": "theme_4-quote-1",
+    "review_id_hash": "3f79806e4ae61dd09e0646d9b2a7d0d030cc9dbf92d77dca136335a8c64e1378",
+    "theme_id": "theme_4",
+    "theme_name": "Features and Functionality",
+    "source": "play_store",
+    "rating": 4,
+    "review_date": "2026-05-09",
+    "quote_text": "very good app been using for past 3 years."
+  },
+  {
+    "quote_candidate_id": "theme_4-quote-2",
+    "review_id_hash": "77160bafae96ced518907605bf0829295833f63a30a54ec884dd7792a223c8d5",
+    "theme_id": "theme_4",
+    "theme_name": "Features and Functionality",
+    "source": "play_store",
+    "rating": 4,
+    "review_date": "2026-05-07",
+    "quote_text": "I like the app, only 1 thing is missing chart screen turns off Without movement, please add always screen on mode in groww app, for better CHART viewing"
+  },
+  {
+    "quote_candidate_id": "theme_4-quote-3",
+    "review_id_hash": "ef9195c4efdb19767c68db7f17b21419fdcccee962a9262ffd7c96091029e241",
+    "theme_id": "theme_4",
+    "theme_name": "Features and Functionality",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-05-09",
+    "quote_text": "Please add features like on chart buy and sell features just like international app on chart put stoploss through line just drop on chart and stoploss is done"
+  },
+  {
+    "quote_candidate_id": "theme_4-quote-4",
+    "review_id_hash": "9a5cb2dc9e358d50eb2d06d86be1819217a2408853ac7c74219875d6d9e62102",
+    "theme_id": "theme_4",
+    "theme_name": "Features and Functionality",
+    "source": "play_store",
+    "rating": 4,
+    "review_date": "2026-05-10",
+    "quote_text": "trading view chart is not working properly"
+  },
+  {
+    "quote_candidate_id": "theme_4-quote-5",
+    "review_id_hash": "73eca4bed0c52ba0c90b4e973643c6a61b3dd868be10bfe9f463463ab3efc629",
+    "theme_id": "theme_4",
+    "theme_name": "Features and Functionality",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "all is well but as I am trader as big name in India the application is not allowing much chart indicator."
+  },
+  {
+    "quote_candidate_id": "theme_5-quote-1",
+    "review_id_hash": "890936e97fd02bbed00c97fbc8fe6f3b2e94871dc99b7d482db966132f6f9f65",
+    "theme_id": "theme_5",
+    "theme_name": "User Interface and Experience",
+    "source": "play_store",
+    "rating": 5,
+    "review_date": "2026-05-08",
+    "quote_text": "best UI among all the trading apps."
+  },
+  {
+    "quote_candidate_id": "theme_5-quote-2",
+    "review_id_hash": "63c20f3b21c9037d8e28a4baf80aee1050e1d19bb8c83c692325e502b8d6f43f",
+    "theme_id": "theme_5",
+    "theme_name": "User Interface and Experience",
+    "source": "play_store",
+    "rating": 5,
+    "review_date": "2026-05-07",
+    "quote_text": "Ekdum smooth experience hai!"
+  },
+  {
+    "quote_candidate_id": "theme_5-quote-3",
+    "review_id_hash": "328be3d89232c03e18d89417e31d9b5e7c70a0805f428e37f6b55812802506fe",
+    "theme_id": "theme_5",
+    "theme_name": "User Interface and Experience",
+    "source": "play_store",
+    "rating": 5,
+    "review_date": "2026-05-08",
+    "quote_text": "Seamless account opening and investments."
+  }
+]

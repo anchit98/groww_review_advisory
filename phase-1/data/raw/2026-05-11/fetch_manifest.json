@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-05-11T18:49:30.687590",
+  "run_date": "2026-05-11",
+  "lookback_weeks": 8,
+  "cutoff_date": "2026-03-16",
+  "sources": {
+    "app_store": {
+      "app_id": "1404871703",
+      "source": "app_store",
+      "fetched_reviews": 500,
+      "earliest_review_date": "2026-04-27",
+      "latest_review_date": "2026-05-10",
+      "warnings": [
+        "App Store public coverage did not reach the full requested lookback window. The stored snapshot contains the newest publicly reachable reviews only."
+      ],
+      "output_path": "data\\raw\\2026-05-11\\groww_app_store_reviews.csv"
+    },
+    "play_store": {
+      "package_name": "com.nextbillion.groww",
+      "source": "play_store",
+      "fetched_reviews": 6429,
+      "earliest_review_date": "2026-03-16",
+      "latest_review_date": "2026-05-10",
+      "warnings": [],
+      "output_path": "data\\raw\\2026-05-11\\groww_play_store_reviews.csv"
+    }
+  },
+  "notes": [
+    "Fetched from public store-accessible review sources.",
+    "Stored source files omit reviewer usernames and keep only the fields needed for Phase 1 ingestion.",
+    "Raw review text is stored exactly as fetched; Phase 1 sanitization happens during ingestion before normalized outputs are written."
+  ]
+}

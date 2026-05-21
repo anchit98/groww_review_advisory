@@ -1,0 +1,66 @@
+{
+  "run_id": "phase2-2026-05-11-3675945f",
+  "status": "dry_run_prepared",
+  "run_started_at": "2026-05-12T09:05:39.374249+00:00",
+  "phase1_handoff": {
+    "normalized_reviews_path": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\normalized_reviews.json",
+    "phase1_metadata_path": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\run_metadata.json",
+    "phase1_run_id": "phase1-2026-05-11-f0813bdc",
+    "phase1_status": "completed",
+    "lookback_weeks": 8,
+    "minimum_review_word_count": 7,
+    "normalized_review_language": "en",
+    "emoji_policy": "strip emojis from retained reviews"
+  },
+  "input_paths": {
+    "normalized_reviews": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\normalized_reviews.json",
+    "phase1_metadata": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\run_metadata.json"
+  },
+  "reporting_window": {
+    "start_date": "2026-03-16",
+    "end_date": "2026-05-11",
+    "lookback_weeks": 8
+  },
+  "source_mix": {
+    "app_store": 166,
+    "play_store": 1269
+  },
+  "review_counts": {
+    "normalized_reviews": 1435,
+    "prepared_evidence_reviews": 1435,
+    "working_set_reviews": 1000,
+    "working_set_reviews_excluded": 435,
+    "discovery_evidence_reviews": 285,
+    "discovery_batches": 8
+  },
+  "coverage_notes": [
+    "app_store: App Store public coverage did not reach the full requested lookback window. The stored snapshot contains the newest publicly reachable reviews only."
+  ],
+  "llm_provider": {
+    "name": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "dry_run": true
+  },
+  "groq_limits": {
+    "provider_requests_per_minute": 30,
+    "provider_requests_per_day": 1000,
+    "provider_tokens_per_minute": 12000,
+    "provider_tokens_per_day": 100000,
+    "soft_requests_per_minute": 4,
+    "soft_tokens_per_minute": 10000
+  },
+  "phase2_limits": {
+    "max_working_reviews": 1000,
+    "max_discovery_calls_target": 8,
+    "max_reviews_per_batch": 40,
+    "max_words_per_batch": 1800
+  },
+  "groq_call_budget": {
+    "discovery_calls": 8,
+    "consolidation_calls": 1,
+    "final_note_calls": 1,
+    "total_calls": 10,
+    "estimated_total_tokens": 55033
+  },
+  "run_finished_at": "2026-05-12T09:05:39.420698+00:00"
+}

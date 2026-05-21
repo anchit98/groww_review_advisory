@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-05-21T10:43:32.234744+00:00",
+  "country": "in",
+  "disclaimer": "Overall ratings as shown on each store's public listing (not computed from this pipeline's review sample).",
+  "stores": {
+    "play_store": {
+      "source": "play_store",
+      "average_rating": 4.79,
+      "rating_count": 2248257,
+      "fetched_at": "2026-05-21T10:43:31.808045+00:00",
+      "package_or_app_id": "com.nextbillion.groww",
+      "country": "in",
+      "label": "Play Store"
+    },
+    "app_store": {
+      "source": "app_store",
+      "average_rating": 4.62,
+      "rating_count": 162479,
+      "fetched_at": "2026-05-21T10:43:32.234698+00:00",
+      "package_or_app_id": "1404871703",
+      "country": "in",
+      "label": "App Store"
+    }
+  }
+}

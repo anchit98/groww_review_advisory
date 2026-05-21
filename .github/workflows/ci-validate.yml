@@ -1,0 +1,58 @@
+# Validates phase unit tests and CI helper scripts on push/PR.
+name: CI Validate
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-ci.txt
+
+      - name: Phase 1 tests
+        working-directory: phase-1
+        run: python -m unittest discover -s tests -q
+
+      - name: Phase 2 tests
+        working-directory: phase-2
+        run: python -m unittest discover -s tests -q
+
+      - name: Phase 3 tests
+        working-directory: phase-3
+        run: python -m unittest discover -s tests -q
+
+      - name: Prepare CI helper fixture
+        run: |
+          python -c "import json; json.dump({'metadata':{'status':'completed'},'output_paths':{}}, open('phase-2/_ci_test.json','w'))"
+
+      - name: CI helper smoke test
+        run: python scripts/ci/check_phase_result.py phase-2/_ci_test.json --phase 2
+
+      - name: Phase 5 API tests
+        working-directory: backend
+        env:
+          REVIEW_ADVISORY_REPO_ROOT: ${{ github.workspace }}
+        run: python -m unittest discover -s tests -q
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Frontend install and build
+        working-directory: frontend
+        run: |
+          npm install
+          npm run build

@@ -1,0 +1,94 @@
+{
+  "opening_summary": "This week, Groww's users have expressed dissatisfaction with the app's customer support, technical issues, and high brokerage charges.",
+  "top_themes": [
+    {
+      "theme_name": "Poor Customer Support and Service",
+      "summary": "Customers are experiencing difficulties with the app's customer support and service, citing unresponsive and unhelpful service.",
+      "linked_final_theme_id": "theme_1",
+      "bullet_points": [
+        "Unresponsive support",
+        "Unhelpful service",
+        "Difficulty correcting account info",
+        "Poor customer care",
+        "Frustrating experience"
+      ]
+    },
+    {
+      "theme_name": "Technical Issues and App Performance",
+      "summary": "Users are experiencing technical issues and app performance problems, including crashes, glitches, and slow loading.",
+      "linked_final_theme_id": "theme_2",
+      "bullet_points": [
+        "App crashes often",
+        "Glitches and slow loading",
+        "Poor interface design",
+        "High brokerage charges",
+        "Hidden fees"
+      ]
+    },
+    {
+      "theme_name": "High Brokerage Charges",
+      "summary": "Users are unhappy with the high brokerage charges associated with the app.",
+      "linked_final_theme_id": "theme_3",
+      "bullet_points": [
+        "Charges are too high",
+        "Not competitive with others",
+        "Hidden charges apply",
+        "Brokerage exceeds profits",
+        "Unbelievable charging"
+      ]
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "I am facing significant difficulties in correcting my name on my Groww account.",
+      "review_id_hash": "2970e864b55af4553a6faba4f446697d7aea2ea35d36d3f771bc5f1236d1ec22",
+      "theme_name": "Poor Customer Support and Service"
+    },
+    {
+      "quote": "har 2 din me update upar se interface bhi bekar aur brokerage charge bhi bahut jyada",
+      "review_id_hash": "f238298130a1bd8cf080b87c48b52e3647c02c568172866657ee6c07b7397e4f",
+      "theme_name": "Technical Issues and App Performance"
+    },
+    {
+      "quote": "To High charge Brocker and not good compare to other Brocker like profits add instead for trade",
+      "review_id_hash": "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+      "theme_name": "High Brokerage Charges"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve customer support by increasing the number of support staff and providing 24/7 support",
+      "linked_theme": "Poor Customer Support and Service",
+      "bullet_points": [
+        "Hire more support staff",
+        "Offer 24/7 support",
+        "Improve response times",
+        "Enhance support resources",
+        "Increase customer satisfaction"
+      ]
+    },
+    {
+      "action": "Conduct regular app updates and maintenance to resolve technical issues and improve performance",
+      "linked_theme": "Technical Issues and App Performance",
+      "bullet_points": [
+        "Regular app updates",
+        "Fix crashes and glitches",
+        "Improve loading speeds",
+        "Simplify interface design",
+        "Reduce errors"
+      ]
+    },
+    {
+      "action": "Review and adjust brokerage charges to be more competitive with other brokers",
+      "linked_theme": "High Brokerage Charges",
+      "bullet_points": [
+        "Review charge structure",
+        "Compare with competitors",
+        "Adjust charges downward",
+        "Eliminate hidden fees",
+        "Increase transparency"
+      ]
+    }
+  ],
+  "coverage_note": "No play_store source file was supplied for this run. App Store public coverage did not reach the full requested lookback window."
+}

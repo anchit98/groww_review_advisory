@@ -1,0 +1,18 @@
+Weekly Groww review advisory (2026-03-26 to 2026-05-21).
+
+This week, Groww's users have expressed dissatisfaction with the app's customer support, technical issues, and high brokerage charges.
+
+Top themes:
+- Poor Customer Support and Service
+- Technical Issues and App Performance
+- High Brokerage Charges
+
+Suggested actions:
+- Improve customer support by increasing the number of support staff and providing 24/7 support
+- Conduct regular app updates and maintenance to resolve technical issues and improve performance
+- Review and adjust brokerage charges to be more competitive with other brokers
+
+Coverage note: No play_store source file was supplied for this run. App Store public coverage did not reach the full requested lookback window.
+
+Full weekly note (quotes, review IDs, and detail):
+https://docs.google.com/document/d/1Do22GAKv1LLf-PVzORaNZNJ9qKKh-n4nojReufNEU6s/edit

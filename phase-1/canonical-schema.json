@@ -1,0 +1,48 @@
+{
+  "name": "phase-1-canonical-review-schema",
+  "description": "Normalized review shape produced by the Phase 1 ingestion pipeline.",
+  "fields": {
+    "source": {
+      "type": "string",
+      "required": true,
+      "description": "Normalized source identifier: app_store or play_store."
+    },
+    "rating": {
+      "type": "integer",
+      "required": true,
+      "description": "Normalized star rating from 1 to 5."
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Optional review title after privacy sanitization."
+    },
+    "review_text": {
+      "type": "string",
+      "required": true,
+      "description": "English review body after emoji removal and privacy sanitization. Reviews with 6 words or fewer are excluded before they reach this schema."
+    },
+    "review_date": {
+      "type": "string",
+      "required": true,
+      "format": "date",
+      "description": "Normalized review date in ISO-8601 format."
+    },
+    "language": {
+      "type": "string",
+      "required": false,
+      "description": "Normalized language for retained reviews. Phase 1 currently keeps English reviews only, so retained values should be en."
+    },
+    "ingested_at": {
+      "type": "string",
+      "required": true,
+      "format": "date-time",
+      "description": "UTC timestamp for when the review entered the normalized dataset."
+    },
+    "review_id_hash": {
+      "type": "string",
+      "required": true,
+      "description": "Stable SHA-256 hash used for deduplication and traceability."
+    }
+  }
+}

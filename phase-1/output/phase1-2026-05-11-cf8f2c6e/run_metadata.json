@@ -1,0 +1,79 @@
+{
+  "run_id": "phase1-2026-05-11-cf8f2c6e",
+  "status": "completed",
+  "run_started_at": "2026-05-11T14:08:51.980926+00:00",
+  "run_finished_at": "2026-05-11T14:08:52.660317+00:00",
+  "reporting_window": {
+    "start_date": "2026-03-16",
+    "end_date": "2026-05-11",
+    "lookback_weeks": 8
+  },
+  "inputs": {
+    "app_store_csv": "data\\raw\\2026-05-11\\groww_app_store_reviews.csv",
+    "play_store_csv": "data\\raw\\2026-05-11\\groww_play_store_reviews.csv"
+  },
+  "assumptions": {
+    "min_reviews_for_confidence": 5,
+    "accepted_sources": [
+      "app_store",
+      "play_store"
+    ],
+    "output_scope": "Phase 1 ingestion only",
+    "normalized_review_language": "en",
+    "minimum_review_word_count": 7,
+    "emoji_policy": "strip emojis from retained reviews"
+  },
+  "low_confidence": false,
+  "source_failures": [],
+  "warnings": [],
+  "source_stats": {
+    "app_store": {
+      "total_rows": 500,
+      "normalized_rows": 166,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 13,
+      "dropped_non_english": 79,
+      "dropped_too_short": 242,
+      "duplicates_removed": 0,
+      "emojis_removed": 20,
+      "pii_redactions": 0,
+      "optional_title_missing": 0,
+      "optional_language_missing": 487
+    },
+    "play_store": {
+      "total_rows": 6429,
+      "normalized_rows": 1269,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 293,
+      "dropped_non_english": 3210,
+      "dropped_too_short": 1657,
+      "duplicates_removed": 0,
+      "emojis_removed": 1087,
+      "pii_redactions": 0,
+      "optional_title_missing": 6136,
+      "optional_language_missing": 6136
+    }
+  },
+  "totals": {
+    "total_rows": 6929,
+    "normalized_rows": 1435,
+    "dropped_missing_required": 0,
+    "dropped_invalid_rating": 0,
+    "dropped_invalid_date": 0,
+    "dropped_outside_window": 0,
+    "dropped_after_sanitization": 306,
+    "dropped_non_english": 3289,
+    "dropped_too_short": 1899,
+    "duplicates_removed": 0,
+    "emojis_removed": 1107,
+    "pii_redactions": 0,
+    "optional_title_missing": 6136,
+    "optional_language_missing": 6623
+  }
+}

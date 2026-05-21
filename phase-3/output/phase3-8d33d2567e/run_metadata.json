@@ -1,0 +1,29 @@
+{
+  "run_id": "phase3-8d33d2567e",
+  "status": "completed",
+  "run_started_at": "2026-05-13T09:09:20.183791+00:00",
+  "integration_model": "mcp_http_only",
+  "mcp_server_url": "https://gmail-docs-mcp.onrender.com",
+  "input_paths": {
+    "weekly_pulse": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-11-4dd213fe\\weekly_pulse.json"
+  },
+  "phase2_metadata_path": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-11-4dd213fe\\run_metadata.json",
+  "reporting_label": "2026-03-16 to 2026-05-11",
+  "content_sha256": "74c1124e21fed9d63240c97c159ae2ad68a70209bfdf83179445b5fc3323e6ab",
+  "word_budget": {
+    "max_words": 250,
+    "substantive_word_count": 245,
+    "truncated": false
+  },
+  "publication": {
+    "google_doc": {
+      "status": "success",
+      "detail": "{\"status\": \"success\", \"message\": \"Content appended to document\", \"document_id\": \"1Do22GAKv1LLf-PVzORaNZNJ9qKKh-n4nojReufNEU6s\"}"
+    },
+    "gmail_draft": {
+      "status": "success",
+      "detail": "{\"status\": \"success\", \"message\": \"Draft created\", \"draft_id\": \"r-2798251591468432918\"}"
+    }
+  },
+  "run_finished_at": "2026-05-13T09:09:24.178321+00:00"
+}

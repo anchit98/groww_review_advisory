@@ -1,0 +1,317 @@
+# Weekly Groww Review Advisory — Phases 1 → 2 → 3
+# Phase 4 orchestration. See docs/phases/phase-4/README.md and docs/edge-case.md (§46A–46C).
+#
+# Required GitHub repository secrets:
+#   GROQ_API_KEY      — live Phase 2 (skip if phase2_dry_run=true)
+#   GOOGLE_DOC_ID     — Phase 3 Doc append (skip if dry_run_phase3=true)
+#   GMAIL_DRAFT_TO    — Phase 3 Gmail draft (skip if dry_run_phase3=true)
+# Optional:
+#   MCP_SERVER_URL    — defaults to https://gmail-docs-mcp.onrender.com
+
+name: Weekly Review Advisory
+
+on:
+  schedule:
+    # Mondays 06:00 UTC — adjust in docs/phases/phase-4/README.md if needed
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Pipeline scope (scheduled cron uses incremental)"
+        type: choice
+        required: true
+        default: incremental
+        options:
+          - incremental
+          - bootstrap
+          - skip_fetch
+          - phase3_only
+      run_date:
+        description: "Reference date (YYYY-MM-DD, UTC). Default: today UTC"
+        required: false
+        type: string
+      phase2_run_directory:
+        description: "Phase 3 only — path under phase-2/ e.g. output/phase2-2026-05-11-4dd213fe"
+        required: false
+        type: string
+      phase2_dry_run:
+        description: "Phase 2 dry-run (no Groq calls)"
+        required: false
+        default: false
+        type: boolean
+      dry_run_phase3:
+        description: "Phase 3 dry-run (no MCP publish)"
+        required: false
+        default: false
+        type: boolean
+      skip_publish_if_unchanged:
+        description: "Phase 3 skip MCP when note body hash unchanged"
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: weekly-review-advisory
+  cancel-in-progress: false
+
+jobs:
+  weekly-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    env:
+      ROLLING_WINDOW_WEEKS: "8"
+      FETCH_LOOKBACK_INCREMENTAL: "1"
+      FETCH_LOOKBACK_BOOTSTRAP: "8"
+      DEFAULT_MCP_SERVER_URL: "https://gmail-docs-mcp.onrender.com"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve run date
+        id: runvars
+        run: |
+          if [ -n "${{ inputs.run_date }}" ]; then
+            RUN_DAY="${{ inputs.run_date }}"
+          else
+            RUN_DAY=$(date -u +%Y-%m-%d)
+          fi
+          echo "run_date=${RUN_DAY}" >> "$GITHUB_OUTPUT"
+          echo "run_mode=${{ inputs.run_mode || 'incremental' }}" >> "$GITHUB_OUTPUT"
+          echo "Using run_date=${RUN_DAY} mode=${{ inputs.run_mode || 'incremental' }}"
+
+      - name: Validate workflow inputs and secrets
+        env:
+          RUN_MODE: ${{ inputs.run_mode || 'incremental' }}
+          PHASE2_DRY_RUN: ${{ inputs.phase2_dry_run }}
+          DRY_RUN_PHASE3: ${{ inputs.dry_run_phase3 }}
+        run: |
+          set -euo pipefail
+          if [ "$RUN_MODE" = "phase3_only" ] && [ -z "${{ inputs.phase2_run_directory }}" ]; then
+            echo "::error::phase3_only requires phase2_run_directory (e.g. output/phase2-2026-05-11-4dd213fe)"
+            exit 1
+          fi
+          if [ "$PHASE2_DRY_RUN" != "true" ] && [ "$RUN_MODE" != "phase3_only" ]; then
+            if [ -z "${{ secrets.GROQ_API_KEY }}" ]; then
+              echo "::error::GROQ_API_KEY secret is required for live Phase 2"
+              exit 1
+            fi
+          fi
+          if [ "$DRY_RUN_PHASE3" != "true" ]; then
+            if [ -z "${{ secrets.GOOGLE_DOC_ID }}" ]; then
+              echo "::error::GOOGLE_DOC_ID secret is required for live Phase 3 publish"
+              exit 1
+            fi
+            if [ -z "${{ secrets.GMAIL_DRAFT_TO }}" ]; then
+              echo "::error::GMAIL_DRAFT_TO secret is required for live Phase 3 publish"
+              exit 1
+            fi
+          fi
+          echo "Secret and input validation passed."
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install CI dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-ci.txt
+
+      - name: Export environment for phases
+        run: |
+          echo "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" >> "$GITHUB_ENV"
+          echo "GOOGLE_DOC_ID=${{ secrets.GOOGLE_DOC_ID }}" >> "$GITHUB_ENV"
+          echo "GMAIL_DRAFT_TO=${{ secrets.GMAIL_DRAFT_TO }}" >> "$GITHUB_ENV"
+          if [ -n "${{ secrets.MCP_SERVER_URL }}" ]; then
+            echo "MCP_SERVER_URL=${{ secrets.MCP_SERVER_URL }}" >> "$GITHUB_ENV"
+          else
+            echo "MCP_SERVER_URL=${DEFAULT_MCP_SERVER_URL}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Fetch real reviews (Phase 1)
+        if: ${{ (inputs.run_mode || 'incremental') != 'skip_fetch' && (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        working-directory: phase-1
+        run: |
+          RUN_MODE="${{ inputs.run_mode || 'incremental' }}"
+          if [ "$RUN_MODE" = "bootstrap" ]; then
+            FETCH_WEEKS="${FETCH_LOOKBACK_BOOTSTRAP}"
+          else
+            FETCH_WEEKS="${FETCH_LOOKBACK_INCREMENTAL}"
+          fi
+          python -m review_advisory_phase1.fetch_real_reviews \
+            --data-dir data \
+            --lookback-weeks "${FETCH_WEEKS}" \
+            --run-date "${{ steps.runvars.outputs.run_date }}"
+
+      - name: Verify raw CSV snapshots exist
+        if: ${{ (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        working-directory: phase-1
+        run: |
+          RAW_DIR="data/raw/${{ steps.runvars.outputs.run_date }}"
+          APP_CSV="${RAW_DIR}/groww_app_store_reviews.csv"
+          PLAY_CSV="${RAW_DIR}/groww_play_store_reviews.csv"
+          missing=0
+          for f in "$APP_CSV" "$PLAY_CSV"; do
+            if [ ! -f "$f" ]; then
+              echo "::error::Missing required snapshot: $f (run fetch or use run_mode=full)"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then exit 1; fi
+          echo "Raw snapshots present under ${RAW_DIR}"
+
+      - name: Ingest and normalize (Phase 1)
+        if: ${{ (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        id: phase1
+        working-directory: phase-1
+        run: |
+          RUN_DAY="${{ steps.runvars.outputs.run_date }}"
+          RUN_MODE="${{ inputs.run_mode || 'incremental' }}"
+          WAREHOUSE_ARGS="--warehouse-dir ../data/warehouse --rolling-window-weeks ${ROLLING_WINDOW_WEEKS}"
+          MODE_ARGS=""
+          if [ "$RUN_MODE" = "bootstrap" ]; then
+            MODE_ARGS="--bootstrap-warehouse --lookback-weeks ${FETCH_LOOKBACK_BOOTSTRAP} ${WAREHOUSE_ARGS}"
+          elif [ "$RUN_MODE" = "incremental" ] || [ "$RUN_MODE" = "skip_fetch" ]; then
+            MODE_ARGS="--incremental ${WAREHOUSE_ARGS}"
+          else
+            MODE_ARGS="--lookback-weeks ${FETCH_LOOKBACK_BOOTSTRAP}"
+          fi
+          python -m review_advisory_phase1 \
+            --app-store-csv "data/raw/${RUN_DAY}/groww_app_store_reviews.csv" \
+            --play-store-csv "data/raw/${RUN_DAY}/groww_play_store_reviews.csv" \
+            --output-dir output \
+            --run-date "${RUN_DAY}" \
+            ${MODE_ARGS} | tee phase1_result.json
+          python ../scripts/ci/check_phase_result.py phase1_result.json --phase 1
+          PHASE1_DIR=$(python -c "import json; print(json.load(open('phase1_result.json'))['output_paths']['run_directory'])")
+          echo "run_directory=${PHASE1_DIR}" >> "$GITHUB_OUTPUT"
+
+      - name: Phase 2 Groq analysis
+        if: ${{ (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        id: phase2
+        working-directory: phase-2
+        run: |
+          PHASE1_DIR="../phase-1/${{ steps.phase1.outputs.run_directory }}"
+          EXTRA=""
+          if [ "${{ inputs.phase2_dry_run }}" = "true" ] || [ "${{ inputs.phase2_dry_run }}" = "True" ]; then
+            EXTRA="--dry-run"
+          fi
+          python -m review_advisory_phase2 \
+            --normalized-reviews "${PHASE1_DIR}/normalized_reviews.json" \
+            --phase1-metadata "${PHASE1_DIR}/run_metadata.json" \
+            --output-dir output \
+            ${EXTRA} | tee phase2_result.json
+          python ../scripts/ci/check_phase_result.py phase2_result.json --phase 2
+          PHASE2_DIR=$(python -c "import json; print(json.load(open('phase2_result.json'))['output_paths']['run_directory'])")
+          echo "run_directory=${PHASE2_DIR}" >> "$GITHUB_OUTPUT"
+
+      - name: Resolve Phase 2 output for Phase 3
+        id: phase2path
+        run: |
+          if [ "${{ inputs.run_mode || 'incremental' }}" = "phase3_only" ]; then
+            echo "run_directory=${{ inputs.phase2_run_directory }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_directory=${{ steps.phase2.outputs.run_directory }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify Phase 2 handoff for Phase 3
+        run: |
+          PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
+          for f in weekly_pulse.json run_metadata.json; do
+            if [ ! -f "${PHASE2_DIR}/${f}" ]; then
+              echo "::error::Missing ${PHASE2_DIR}/${f}"
+              exit 1
+            fi
+          done
+
+      - name: Archive weekly pulse history
+        if: ${{ success() && (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        run: |
+          RUN_DAY="${{ steps.runvars.outputs.run_date }}"
+          PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
+          python scripts/ci/archive_weekly_history.py \
+            --weekly-pulse "${PHASE2_DIR}/weekly_pulse.json" \
+            --phase2-metadata "${PHASE2_DIR}/run_metadata.json" \
+            --run-date "${RUN_DAY}"
+
+      - name: Phase 3 publish via MCP
+        id: phase3
+        working-directory: phase-3
+        run: |
+          PHASE2_DIR="../phase-2/${{ steps.phase2path.outputs.run_directory }}"
+          EXTRA=""
+          if [ "${{ inputs.dry_run_phase3 }}" = "true" ] || [ "${{ inputs.dry_run_phase3 }}" = "True" ]; then
+            EXTRA="--dry-run"
+          fi
+          if [ "${{ inputs.skip_publish_if_unchanged }}" = "true" ] || [ "${{ inputs.skip_publish_if_unchanged }}" = "True" ]; then
+            EXTRA="${EXTRA} --skip-publish-if-unchanged"
+          fi
+          python -m review_advisory_phase3 \
+            --weekly-pulse "${PHASE2_DIR}/weekly_pulse.json" \
+            --phase2-metadata "${PHASE2_DIR}/run_metadata.json" \
+            --output-dir output \
+            --mcp-base-url "${MCP_SERVER_URL}" \
+            ${EXTRA} | tee phase3_result.json
+          python ../scripts/ci/check_phase_result.py phase3_result.json --phase 3
+
+      - name: Sync UI runs index (Phase 5)
+        if: success()
+        run: |
+          RUN_DAY="${{ steps.runvars.outputs.run_date }}"
+          PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
+          PHASE3_DIR=$(ls -td phase-3/output/phase3-* 2>/dev/null | head -1)
+          if [ -z "${PHASE3_DIR}" ] || [ ! -f "${PHASE3_DIR}/run_metadata.json" ]; then
+            echo "::warning::Phase 3 metadata missing; runs_index not updated with publication."
+            exit 0
+          fi
+          python scripts/ci/sync_runs_index.py \
+            --run-date "${RUN_DAY}" \
+            --weekly-pulse "${PHASE2_DIR}/weekly_pulse.json" \
+            --phase2-metadata "${PHASE2_DIR}/run_metadata.json" \
+            --phase3-metadata "${PHASE3_DIR}/run_metadata.json" \
+            --repo-root .
+
+      - name: Upload workflow artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-pulse-${{ github.run_id }}
+          path: |
+            phase-1/data/raw/
+            phase-1/output/
+            phase-2/output/
+            phase-3/output/
+            data/warehouse/
+            data/history/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Persist warehouse and history to repository
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/warehouse data/history
+          if git diff --staged --quiet; then
+            echo "No warehouse/history changes to commit."
+          else
+            git commit -m "chore(data): weekly warehouse and pulse history ${{ steps.runvars.outputs.run_date }}"
+            git push
+          fi
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          python scripts/ci/workflow_summary.py \
+            --phase1 phase-1/phase1_result.json \
+            --phase2 phase-2/phase2_result.json \
+            --phase3 phase-3/phase3_result.json \
+            --github-run-id "${{ github.run_id }}"

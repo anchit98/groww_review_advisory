@@ -1,0 +1,36 @@
+{
+  "fetched_at": "2026-05-21T08:37:23.781298+00:00",
+  "run_date": "2026-05-21",
+  "lookback_weeks": 2,
+  "cutoff_date": "2026-05-07",
+  "sources": {
+    "app_store": {
+      "app_id": "1404871703",
+      "source": "app_store",
+      "csv_path": "data\\raw\\2026-05-21\\groww_app_store_reviews.csv",
+      "fetched_reviews": 150,
+      "earliest_review_date": "2026-05-10",
+      "latest_review_date": "2026-05-19",
+      "warnings": [
+        "App Store page 2 returned no review entries; continuing pagination.",
+        "App Store page 3 returned no review entries; continuing pagination.",
+        "App Store page 4 returned no review entries; continuing pagination.",
+        "App Store page 6 returned no review entries; continuing pagination.",
+        "App Store page 7 returned no review entries; continuing pagination.",
+        "App Store page 9 returned no review entries; continuing pagination.",
+        "App Store page 10 returned no review entries; continuing pagination.",
+        "App Store public coverage did not reach the full requested lookback window. The stored snapshot contains the newest publicly reachable reviews only."
+      ]
+    },
+    "play_store": {
+      "skipped": true
+    }
+  },
+  "notes": [
+    "Fetched from public store-accessible review sources.",
+    "Stored source files omit reviewer usernames and keep only the fields needed for Phase 1 ingestion.",
+    "Raw review text is stored exactly as fetched; Phase 1 sanitization happens during ingestion before normalized outputs are written."
+  ],
+  "finished_at": "2026-05-21T08:37:31.020150+00:00",
+  "raw_output_directory": "data\\raw\\2026-05-21"
+}

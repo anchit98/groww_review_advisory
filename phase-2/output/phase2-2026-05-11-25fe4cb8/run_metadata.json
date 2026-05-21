@@ -1,0 +1,40 @@
+{
+  "run_id": "phase2-2026-05-11-25fe4cb8",
+  "status": "dry_run_prepared",
+  "run_started_at": "2026-05-11T15:02:13.663324+00:00",
+  "phase1_handoff": {
+    "normalized_reviews_path": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\normalized_reviews.json",
+    "phase1_metadata_path": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\run_metadata.json",
+    "phase1_run_id": "phase1-2026-05-11-f0813bdc",
+    "phase1_status": "completed",
+    "lookback_weeks": 8,
+    "minimum_review_word_count": 7,
+    "normalized_review_language": "en",
+    "emoji_policy": "strip emojis from retained reviews"
+  },
+  "input_paths": {
+    "normalized_reviews": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\normalized_reviews.json",
+    "phase1_metadata": "..\\phase-1\\output\\phase1-2026-05-11-f0813bdc\\run_metadata.json"
+  },
+  "reporting_window": {
+    "start_date": "2026-03-16",
+    "end_date": "2026-05-11",
+    "lookback_weeks": 8
+  },
+  "source_mix": {
+    "app_store": 166,
+    "play_store": 1269
+  },
+  "review_counts": {
+    "normalized_reviews": 1435,
+    "prepared_evidence_reviews": 1435,
+    "discovery_batches": 60
+  },
+  "coverage_notes": [],
+  "llm_provider": {
+    "name": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "dry_run": true
+  },
+  "run_finished_at": "2026-05-11T15:02:13.711374+00:00"
+}

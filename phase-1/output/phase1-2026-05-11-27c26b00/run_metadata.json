@@ -1,0 +1,67 @@
+{
+  "run_id": "phase1-2026-05-11-27c26b00",
+  "status": "completed",
+  "run_started_at": "2026-05-11T13:20:07.779521+00:00",
+  "run_finished_at": "2026-05-11T13:20:07.985597+00:00",
+  "reporting_window": {
+    "start_date": "2026-03-16",
+    "end_date": "2026-05-11",
+    "lookback_weeks": 8
+  },
+  "inputs": {
+    "app_store_csv": "data\\raw\\2026-05-11\\groww_app_store_reviews.csv",
+    "play_store_csv": "data\\raw\\2026-05-11\\groww_play_store_reviews.csv"
+  },
+  "assumptions": {
+    "min_reviews_for_confidence": 5,
+    "accepted_sources": [
+      "app_store",
+      "play_store"
+    ],
+    "output_scope": "Phase 1 ingestion only"
+  },
+  "low_confidence": false,
+  "source_failures": [],
+  "warnings": [],
+  "source_stats": {
+    "app_store": {
+      "total_rows": 500,
+      "normalized_rows": 487,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 13,
+      "duplicates_removed": 0,
+      "pii_redactions": 0,
+      "optional_title_missing": 0,
+      "optional_language_missing": 487
+    },
+    "play_store": {
+      "total_rows": 6429,
+      "normalized_rows": 6136,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 293,
+      "duplicates_removed": 0,
+      "pii_redactions": 0,
+      "optional_title_missing": 6136,
+      "optional_language_missing": 6136
+    }
+  },
+  "totals": {
+    "total_rows": 6929,
+    "normalized_rows": 6623,
+    "dropped_missing_required": 0,
+    "dropped_invalid_rating": 0,
+    "dropped_invalid_date": 0,
+    "dropped_outside_window": 0,
+    "dropped_after_sanitization": 306,
+    "duplicates_removed": 0,
+    "pii_redactions": 0,
+    "optional_title_missing": 6136,
+    "optional_language_missing": 6623
+  }
+}

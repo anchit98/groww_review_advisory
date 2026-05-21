@@ -1,0 +1,36 @@
+:root {
+  --color-surface: #0a0b10;
+  --color-surface-container-low: rgba(22, 24, 32, 0.72);
+  --color-surface-container: rgba(32, 34, 44, 0.55);
+  --color-surface-container-high: rgba(48, 50, 62, 0.72);
+  --color-on-surface: #f2f4f8;
+  --color-on-surface-variant: #b8bfd4;
+  --color-outline: #8c909f;
+  --color-outline-variant: rgba(255, 255, 255, 0.14);
+  --color-primary: #b8d4ff;
+  --color-primary-container: #5b9aff;
+  --color-tertiary: #ffc9a0;
+  --color-error: #ffb8b0;
+
+  /* Liquid glass */
+  --glass-blur: 28px;
+  --glass-saturate: 1.65;
+  --glass-bg: rgba(36, 38, 50, 0.42);
+  --glass-bg-elevated: rgba(44, 48, 62, 0.58);
+  --glass-bg-inset: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-border-strong: rgba(255, 255, 255, 0.24);
+  --glass-highlight: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.38), 0 2px 8px rgba(0, 0, 0, 0.22);
+  --glass-shadow-hover: 0 16px 48px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(173, 198, 255, 0.12);
+  --glass-inner: inset 0 1px 0 rgba(255, 255, 255, 0.12), inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  --glass-specular: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    transparent 42%,
+    transparent 58%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  --glow-primary: rgba(91, 154, 255, 0.35);
+  --glow-tertiary: rgba(255, 201, 160, 0.25);
+}

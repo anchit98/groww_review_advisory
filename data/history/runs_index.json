@@ -1,0 +1,46 @@
+{
+  "runs": [
+    {
+      "week_ending": "2026-05-21",
+      "archived_at": "2026-05-21T09:47:03.618224+00:00",
+      "weekly_pulse_path": "data/history/weekly_pulse/2026-05-21/weekly_pulse.json",
+      "phase2_run_metadata_path": "data/history/weekly_pulse/2026-05-21/phase2_run_metadata.json",
+      "quote_candidates_path": "data/history/weekly_pulse/2026-05-21/quote_candidates.json",
+      "consolidation_response_path": "data/history/weekly_pulse/2026-05-21/consolidation_response.json",
+      "phase2_run_id": "phase2-2026-05-21-a592cc6c",
+      "phase3_run_id": "phase3-c4e934f594",
+      "phase3_run_metadata_path": "data/history/weekly_pulse/2026-05-21/phase3_run_metadata.json",
+      "weekly_note_path": "data/history/weekly_pulse/2026-05-21/weekly_note.md",
+      "email_draft_path": "data/history/weekly_pulse/2026-05-21/email_draft.txt",
+      "google_doc_url": "https://docs.google.com/document/d/1Do22GAKv1LLf-PVzORaNZNJ9qKKh-n4nojReufNEU6s/edit",
+      "gmail_draft_id": "r22470686396450726",
+      "status": "completed",
+      "phase3_status": "completed",
+      "reporting_window": {
+        "start_date": "2026-03-26",
+        "end_date": "2026-05-21",
+        "lookback_weeks": 8
+      },
+      "publication": {
+        "google_doc": "success",
+        "gmail_draft": "success"
+      }
+    },
+    {
+      "week_ending": "2026-05-11",
+      "archived_at": "2026-05-13T07:31:49.058525+00:00",
+      "weekly_pulse_path": "phase-2/output/phase2-2026-05-11-4dd213fe/weekly_pulse.json",
+      "phase2_run_metadata_path": "phase-2/output/phase2-2026-05-11-4dd213fe/run_metadata.json",
+      "quote_candidates_path": "phase-2/output/phase2-2026-05-11-4dd213fe/quote_candidates.json",
+      "consolidation_response_path": "phase-2/output/phase2-2026-05-11-4dd213fe/consolidation_response.json",
+      "phase2_run_id": "phase2-2026-05-11-4dd213fe",
+      "status": "completed",
+      "reporting_window": {
+        "start_date": "2026-03-16",
+        "end_date": "2026-05-11",
+        "lookback_weeks": 8
+      }
+    }
+  ],
+  "updated_at": "2026-05-21T12:00:00.000000+00:00"
+}

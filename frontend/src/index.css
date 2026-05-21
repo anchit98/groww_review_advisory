@@ -1,0 +1,30 @@
+@import "./styles/tokens.css";
+@import "./styles/glass.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply font-sans text-on-surface antialiased;
+    background: var(--color-surface);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(91, 154, 255, 0.35);
+    color: #fff;
+  }
+}

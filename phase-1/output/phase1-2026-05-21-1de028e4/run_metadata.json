@@ -1,0 +1,91 @@
+{
+  "run_id": "phase1-2026-05-21-1de028e4",
+  "status": "completed_with_warnings",
+  "run_started_at": "2026-05-21T08:37:42.590266+00:00",
+  "run_finished_at": "2026-05-21T08:37:42.647813+00:00",
+  "reporting_window": {
+    "start_date": "2026-03-26",
+    "end_date": "2026-05-21",
+    "lookback_weeks": 8
+  },
+  "inputs": {
+    "app_store_csv": "data\\raw\\2026-05-21\\groww_app_store_reviews.csv",
+    "play_store_csv": null
+  },
+  "assumptions": {
+    "min_reviews_for_confidence": 5,
+    "accepted_sources": [
+      "app_store",
+      "play_store"
+    ],
+    "output_scope": "Phase 1 ingestion only",
+    "normalized_review_language": "en",
+    "minimum_review_word_count": 7,
+    "emoji_policy": "strip emojis from retained reviews",
+    "rolling_warehouse": "Incremental weekly fetch merged into a 8-week rolling store."
+  },
+  "low_confidence": false,
+  "source_failures": [],
+  "warnings": [
+    "No play_store source file was supplied for this run."
+  ],
+  "source_stats": {
+    "app_store": {
+      "total_rows": 150,
+      "normalized_rows": 42,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 3,
+      "dropped_non_english": 26,
+      "dropped_too_short": 79,
+      "duplicates_removed": 0,
+      "emojis_removed": 6,
+      "pii_redactions": 0,
+      "optional_title_missing": 0,
+      "optional_language_missing": 147
+    },
+    "play_store": {
+      "total_rows": 0,
+      "normalized_rows": 0,
+      "dropped_missing_required": 0,
+      "dropped_invalid_rating": 0,
+      "dropped_invalid_date": 0,
+      "dropped_outside_window": 0,
+      "dropped_after_sanitization": 0,
+      "dropped_non_english": 0,
+      "dropped_too_short": 0,
+      "duplicates_removed": 0,
+      "emojis_removed": 0,
+      "pii_redactions": 0,
+      "optional_title_missing": 0,
+      "optional_language_missing": 0
+    }
+  },
+  "totals": {
+    "total_rows": 150,
+    "normalized_rows": 42,
+    "dropped_missing_required": 0,
+    "dropped_invalid_rating": 0,
+    "dropped_invalid_date": 0,
+    "dropped_outside_window": 0,
+    "dropped_after_sanitization": 3,
+    "dropped_non_english": 26,
+    "dropped_too_short": 79,
+    "duplicates_removed": 0,
+    "emojis_removed": 6,
+    "pii_redactions": 0,
+    "optional_title_missing": 0,
+    "optional_language_missing": 147
+  },
+  "ingestion_mode": "incremental",
+  "incremental_fetch_weeks": 2,
+  "warehouse": {
+    "total_reviews": 1437,
+    "new_reviews_this_run": 42,
+    "updated_existing": 0,
+    "pruned_outside_window": 0,
+    "warehouse_path": "..\\data\\warehouse\\normalized_reviews.json"
+  }
+}

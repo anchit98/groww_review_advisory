@@ -1,0 +1,363 @@
+[
+  {
+    "batch_id": "app_store-1-2-batch-001",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme_1",
+        "theme_name": "Poor Customer Support",
+        "sentiment": "negative",
+        "summary": "Customers are experiencing difficulties with the app's customer support, citing unresponsive and unhelpful service.",
+        "evidence_review_ids": [
+          "c56e4e26446ca47d6c72d9d19f178532a71349b2a59e122e526f5eca2fce661e",
+          "27c38907ecd42b084c572777df731244aa208cc69c6c98f6908ffc2fcbae9f8a",
+          "fe18363fb2cfaeecf9e8da3ae0d8211d707fce56e17d5e87f64c88a1daed5d5f",
+          "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618"
+        ],
+        "recurrence_reason": "Recurring complaints about unresponsive customer support",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme_2",
+        "theme_name": "App Functionality Issues",
+        "sentiment": "negative",
+        "summary": "Users are experiencing technical issues with the app, including glitches, slow performance, and difficulties with logging in and withdrawing money.",
+        "evidence_review_ids": [
+          "27c38907ecd42b084c572777df731244aa208cc69c6c98f6908ffc2fcbae9f8a",
+          "4cb0527d28495a777938486d3d12b75be72f942645cf0a0b1d9140002643cf82",
+          "f5a3a8a9121f431642934c7d25104e063611af176c46a5e85ee82bef8b381507",
+          "b09019f3882827b4b1120c127c4a4b898e5ecffb0c1c1c04268690e4c2d29144"
+        ],
+        "recurrence_reason": "Recurring reports of technical issues with the app",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.9
+      },
+      {
+        "candidate_theme_id": "theme_3",
+        "theme_name": "Lack of Compatibility with iOS Devices",
+        "sentiment": "negative",
+        "summary": "Some users are experiencing difficulties with the app's compatibility with iOS devices, including issues with the user interface and functionality.",
+        "evidence_review_ids": [
+          "2c7157a7ec73487bc908e18971f5f7cdf4f4cacad48ed846f2bd29a98cb442f7",
+          "98cf3631293c76554365bee83f8af4073a132f6ded5d72323d55bcb7178039b0"
+        ],
+        "recurrence_reason": "Recurring complaints about iOS compatibility issues",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.7
+      }
+    ]
+  },
+  {
+    "batch_id": "play_store-1-2-batch-001",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme_1",
+        "theme_name": "Poor Trading Experience",
+        "sentiment": "negative",
+        "summary": "Users are experiencing issues with trading, including orders not being executed, app freezing, and difficulty with navigating the app.",
+        "evidence_review_ids": [
+          "979e8497a83cca210aaf2e1e07b62f532fcdd1209537d5e4209a1782d8033110",
+          "bf0a60b7f3bd1e093f3ed2e2a18cc4340253b52b0ebcfaefc46967894ea00b4e",
+          "6c2bb4785c345f154c815b91ffb863eb76f8ef2ac1fa0e75daca1e47cf213528",
+          "60cebf3e5a827af28f2e8439a4ee21588cbf96f97a5e9de62040137db3294aaf",
+          "6aa00961b4dc1ab0a995fa05c9676484f2bcbbe06b2a0d6aff42d9f878a7a97f"
+        ],
+        "recurrence_reason": "Technical issues and poor app performance",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme_2",
+        "theme_name": "Unsatisfactory Customer Support",
+        "sentiment": "negative",
+        "summary": "Users are unhappy with the customer support provided by Groww, citing long wait times and unhelpful responses.",
+        "evidence_review_ids": [
+          "afde2f0bdf79e5944c81433aee43194775d06deb1ae2dd358d19563bffbe68f6",
+          "bf86ee7169d1dc3fe1a02fa5a8eba3e4edd20fd87c5193524226a2b01ad2b95e",
+          "8ffe8b3c6beca259fc44e8960f4e4ed518582a55faef920b3dce9dd97db601f6",
+          "c2eafefb36b92593c6e266133eb12773afaf2ab42625cfba57332b3a10d8ddcc"
+        ],
+        "recurrence_reason": "Lack of effective support channels",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.7
+      },
+      {
+        "candidate_theme_id": "theme_3",
+        "theme_name": "App Performance Issues",
+        "sentiment": "negative",
+        "summary": "Users are experiencing issues with the app's performance, including freezing, hanging, and slow loading times.",
+        "evidence_review_ids": [
+          "d0f114a321994bb7fb2088a3e57d93264f4680851eac2d5a2a3ff48f236dee05",
+          "f733b0dd0d644bc80aa1d05d50a25e6b69cfbbe258c6295a04ff74f015f48b20",
+          "c8c3c19149b6f06308efe01ff279fcc6265788e4bfe6e16b338ad7c7486ead6b"
+        ],
+        "recurrence_reason": "Technical issues and poor app optimization",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.6
+      }
+    ]
+  },
+  {
+    "batch_id": "play_store-1-2-batch-002",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme_1",
+        "theme_name": "High Brokerage Charges",
+        "sentiment": "negative",
+        "summary": "Users are unhappy with the high brokerage charges imposed by Groww.",
+        "evidence_review_ids": [
+          "f8a01befc7b20b324593b3a5585680be0cb16552ccc5df92b57e759d4c8ba36a",
+          "113e8ae0dcd75ce8f627b0a0dc200f9b141970d0f331a78228b4ced589bfbe04",
+          "148c25b7a9bbabd014653368749608dd8720f256ad25cf8dc68b165c6d78e78a",
+          "917156d589ea8a839b4008bf727ff2decac582cc3de9ccc34ec9d2cd4471a9fd",
+          "97fa86c77e045ef89d816305198e0203a5002bfa708db8e86654c4b751cd1cb2"
+        ],
+        "recurrence_reason": "Multiple users have reported high brokerage charges as a major issue with the app.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme_2",
+        "theme_name": "Poor Customer Support",
+        "sentiment": "negative",
+        "summary": "Users are dissatisfied with the customer support provided by Groww.",
+        "evidence_review_ids": [
+          "f0c43e5e7ad03c56b0f23defb0c18fd7caa79968fd0ab7e963401cbe3feeb9a0",
+          "f2f4e0765c0252d5f42733612992547b54b12d723de58171b931abc1c70db725",
+          "ac081f37c535311d35d56fe9479ec52b500afadb24b98186bfd4f2a6bf382e3b",
+          "1ab9004b050ec00729370144f3f012fdcfbbdc76908506c9eb0ca2f7919fd17c",
+          "b45cbb730fd631f854fde19fa58637563186770a132937f405f1b2359765c58c"
+        ],
+        "recurrence_reason": "Multiple users have reported poor customer support as a major issue with the app.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.9
+      },
+      {
+        "candidate_theme_id": "theme_3",
+        "theme_name": "Technical Issues",
+        "sentiment": "negative",
+        "summary": "Users are experiencing technical issues with the app, including glitches and difficulties with transactions.",
+        "evidence_review_ids": [
+          "f0c43e5e7ad03c56b0f23defb0c18fd7caa79968fd0ab7e963401cbe3feeb9a0",
+          "73eca4bed0c52ba0c90b4e973643c6a61b3dd868be10bfe9f463463ab3efc629",
+          "91882089bd1af12279b2fdea3da3efe65a0d58006075cfce393f36463b71a27a",
+          "b0fbccb5966cb7c6fe037072d7b07c8984fdcdad7976302bb861ccf2c68c563f"
+        ],
+        "recurrence_reason": "Multiple users have reported technical issues as a major problem with the app.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "1-2",
+        "confidence_score": 0.7
+      }
+    ]
+  },
+  {
+    "batch_id": "mixed-3-batch-001",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme-1",
+        "theme_name": "High Charges",
+        "sentiment": "negative",
+        "summary": "Users are complaining about high charges and brokerage fees compared to other apps.",
+        "evidence_review_ids": [
+          "13c1619b956b8d54933ec9021fd6d2b8e271e6540204b20e29dee6514702e2f3",
+          "2ce571ef72f3bd1816f65622b1e08b1a83081371f5ed3fb48e595b4c9dd96a7a",
+          "5575de307b01cbceb4519a77d7f099c52e70e663f6414dc74768ed0d8cbbc052"
+        ],
+        "recurrence_reason": "Multiple users have reported high charges as a major issue.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "3",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme-2",
+        "theme_name": "Poor Customer Support",
+        "sentiment": "negative",
+        "summary": "Users are experiencing difficulties in reaching customer support and getting their issues resolved.",
+        "evidence_review_ids": [
+          "1e683f938f91a82be4eec194827a6ea0d4f80093de1c93cc8c56587f4621c84c",
+          "80717d0992f2048a787ea359c40d42113665d1e7b21fefb193eff18d1d86d1f1"
+        ],
+        "recurrence_reason": "Multiple users have reported poor customer support as a major issue.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "3",
+        "confidence_score": 0.7
+      },
+      {
+        "candidate_theme_id": "theme-3",
+        "theme_name": "Technical Issues",
+        "sentiment": "negative",
+        "summary": "Users are experiencing technical issues such as glitches, login problems, and incorrect data display.",
+        "evidence_review_ids": [
+          "afa48274f48d7a2219d3ab194495e883bcedada6a1d425024ad19ce4f5a685ed",
+          "b27d4e46c58f8188d03a3536dfb800a200704452a40580e3c6767bfceeef250f",
+          "f837a6d66c2b5d85d20c4141a9d13a501fd6fb7c7e5fd12227124603adf8ef09"
+        ],
+        "recurrence_reason": "Multiple users have reported technical issues as a major problem.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "3",
+        "confidence_score": 0.6
+      },
+      {
+        "candidate_theme_id": "theme-4",
+        "theme_name": "Feature Requests",
+        "sentiment": "mixed",
+        "summary": "Users are requesting new features such as daily P&L charts, support and resistance levels, and the ability to plot trades on charts.",
+        "evidence_review_ids": [
+          "6b28e028831083f48057029b45c90d1ac7716aaf9df46e06acfc09a204036690",
+          "a5f03cc42b1c18250423524747b1309e8a01b3af8911a5243dc8a2d38f8e5ab3",
+          "902cec2f2d5de4fe400d98591967d3b7ba60f066a7ae996c5b17797c7950bdad"
+        ],
+        "recurrence_reason": "Multiple users have requested new features to improve their experience.",
+        "source_scope": [
+          "app_store",
+          "play_store"
+        ],
+        "rating_band": "3",
+        "confidence_score": 0.5
+      }
+    ]
+  },
+  {
+    "batch_id": "app_store-4-5-batch-001",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme_1",
+        "theme_name": "Ease of Use",
+        "sentiment": "positive",
+        "summary": "Users find the app easy to use and navigate.",
+        "evidence_review_ids": [
+          "3582444a3a7b100f4f7938445515f203ade229c5514c7ae07fcd0d436ca5882d",
+          "6d819d985dce6476c9ce8176614febe7f934aaf846e65866b77f8f7897be9473",
+          "1f534654179c8b0c632c26369bb5b7ed062c7ea5a2211e65537fbe0e993f3412"
+        ],
+        "recurrence_reason": "Multiple users mentioned the app's ease of use.",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme_2",
+        "theme_name": "Mutual Fund and Stock Investment",
+        "sentiment": "positive",
+        "summary": "Users appreciate the app's features for mutual fund and stock investment.",
+        "evidence_review_ids": [
+          "5681d7a8c28101beb331c71e1ea9d24e9273d30b6ab8f1d0010a2ad9c9c1beae",
+          "ef8e30e87d2cf161d4f28fccceb05450ac8d8bfed31daee173cf9d7cedc11e8e",
+          "0970f1af260bdb4aeb50638fd72498f2576cb227e51074217208efe2a04dcd2d"
+        ],
+        "recurrence_reason": "Multiple users mentioned the app's features for mutual fund and stock investment.",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.9
+      },
+      {
+        "candidate_theme_id": "theme_3",
+        "theme_name": "Beginner Friendliness",
+        "sentiment": "positive",
+        "summary": "Users find the app suitable for beginners.",
+        "evidence_review_ids": [
+          "6d819d985dce6476c9ce8176614febe7f934aaf846e65866b77f8f7897be9473",
+          "e7b2b81c0e9625d2f1f88ecbeed8745f6f8bfadea0dcf0598c465e73e8a528e4"
+        ],
+        "recurrence_reason": "Multiple users mentioned the app's suitability for beginners.",
+        "source_scope": [
+          "app_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.7
+      }
+    ]
+  },
+  {
+    "batch_id": "play_store-4-5-batch-001",
+    "candidate_themes": [
+      {
+        "candidate_theme_id": "theme_1",
+        "theme_name": "User Interface and Experience",
+        "sentiment": "positive",
+        "summary": "Users praise the app's interface and experience, citing its simplicity and ease of use.",
+        "evidence_review_ids": [
+          "63c20f3b21c9037d8e28a4baf80aee1050e1d19bb8c83c692325e502b8d6f43f",
+          "b021f4c2c4e1f7549fcccafc5e9a031f04afcfa61e87a3757a3e60ef1dd6e451",
+          "3792227f750406e3558561d81ca43b9b34a2d8b6fb364749579a04b8b94f7c18"
+        ],
+        "recurrence_reason": "Multiple users praising the app's interface and experience.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.8
+      },
+      {
+        "candidate_theme_id": "theme_2",
+        "theme_name": "Features and Functionality",
+        "sentiment": "mixed",
+        "summary": "Users request additional features, such as the ability to invest every week in SIP for MF, and report issues with existing features, such as the trading view chart not working properly.",
+        "evidence_review_ids": [
+          "77160bafae96ced518907605bf0829295833f63a30a54ec884dd7792a223c8d5",
+          "3f79806e4ae61dd09e0646d9b2a7d0d030cc9dbf92d77dca136335a8c64e1378",
+          "9a5cb2dc9e358d50eb2d06d86be1819217a2408853ac7c74219875d6d9e62102"
+        ],
+        "recurrence_reason": "Multiple users requesting additional features or reporting issues with existing ones.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.7
+      },
+      {
+        "candidate_theme_id": "theme_3",
+        "theme_name": "Investment and Trading",
+        "sentiment": "positive",
+        "summary": "Users praise the app for its helpfulness in investment and trading, citing its ease of use and effectiveness.",
+        "evidence_review_ids": [
+          "b021f4c2c4e1f7549fcccafc5e9a031f04afcfa61e87a3757a3e60ef1dd6e451",
+          "78529b9850c252fc3f6e0fb18f50322fd12fab65a3f80cf7dffd77e0999f2ea7",
+          "e4faa15d97dbb5c1a3c1a4a35a6cb9e631dda7ef2af4ae1e38429bf726ac4c00"
+        ],
+        "recurrence_reason": "Multiple users praising the app's helpfulness in investment and trading.",
+        "source_scope": [
+          "play_store"
+        ],
+        "rating_band": "4-5",
+        "confidence_score": 0.9
+      }
+    ]
+  }
+]

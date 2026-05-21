@@ -1,0 +1,28 @@
+{
+  "run_id": "phase3-ab70332ffe",
+  "status": "dry_run_prepared",
+  "run_started_at": "2026-05-13T08:57:26.516624+00:00",
+  "integration_model": "mcp_http_only",
+  "mcp_server_url": "https://gmail-docs-mcp.onrender.com",
+  "input_paths": {
+    "weekly_pulse": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-11-4dd213fe\\weekly_pulse.json"
+  },
+  "phase2_metadata_path": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-11-4dd213fe\\run_metadata.json",
+  "reporting_label": "2026-03-16 to 2026-05-11",
+  "content_sha256": "888c1691d06e3212cdaaa749c3e53fba138ec1946052adfc2d7fd6bcbcbe8c95",
+  "word_budget": {
+    "max_words": 250,
+    "truncated": true
+  },
+  "publication": {
+    "google_doc": {
+      "status": "skipped",
+      "detail": ""
+    },
+    "gmail_draft": {
+      "status": "skipped",
+      "detail": ""
+    }
+  },
+  "run_finished_at": "2026-05-13T08:57:26.532729+00:00"
+}

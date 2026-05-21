@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "theme_1-quote-1",
+    "review_id_hash": "6c2bb4785c345f154c815b91ffb863eb76f8ef2ac1fa0e75daca1e47cf213528",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and Trading Experience",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-05-05",
+    "quote_text": "from past 1week am observing hung, due to this delay/hung am not able to buy/sell accurately."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-2",
+    "review_id_hash": "f2f4e0765c0252d5f42733612992547b54b12d723de58171b931abc1c70db725",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and Trading Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "it is so so terrible because while using this app option premium has stuck.."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-3",
+    "review_id_hash": "6aa00961b4dc1ab0a995fa05c9676484f2bcbbe06b2a0d6aff42d9f878a7a97f",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and Trading Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "worst app as unable to execute all orders profit turned into loss very bad they will not provide any support only they will charge"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-4",
+    "review_id_hash": "bf0a60b7f3bd1e093f3ed2e2a18cc4340253b52b0ebcfaefc46967894ea00b4e",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and Trading Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-04",
+    "quote_text": "Groww is froud app, chart go positive side and call option price go negative side, due to this I lost 300K in 2 month, don't install this app"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-5",
+    "review_id_hash": "c56e4e26446ca47d6c72d9d19f178532a71349b2a59e122e526f5eca2fce661e",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and Trading Experience",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-04",
+    "quote_text": "They grow we are crow."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-1",
+    "review_id_hash": "4cb0527d28495a777938486d3d12b75be72f942645cf0a0b1d9140002643cf82",
+    "theme_id": "theme_2",
+    "theme_name": "App Functionality and Performance Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "lways mcx issues app don\u2019t have own system like ZERODHA u lose money if u stuck in partition issue"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-2",
+    "review_id_hash": "73eca4bed0c52ba0c90b4e973643c6a61b3dd868be10bfe9f463463ab3efc629",
+    "theme_id": "theme_2",
+    "theme_name": "App Functionality and Performance Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "all is well but as I am trader as big name in India the application is not allowing much chart indicator."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-3",
+    "review_id_hash": "f5a3a8a9121f431642934c7d25104e063611af176c46a5e85ee82bef8b381507",
+    "theme_id": "theme_2",
+    "theme_name": "App Functionality and Performance Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "I have build few portfolios in this app and I was able to see each portfolio profit or loss individually but now suddenly all gone now."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-4",
+    "review_id_hash": "c8c3c19149b6f06308efe01ff279fcc6265788e4bfe6e16b338ad7c7486ead6b",
+    "theme_id": "theme_2",
+    "theme_name": "App Functionality and Performance Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "hang app since last 30min,worst than wrost app"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-5",
+    "review_id_hash": "91882089bd1af12279b2fdea3da3efe65a0d58006075cfce393f36463b71a27a",
+    "theme_id": "theme_2",
+    "theme_name": "App Functionality and Performance Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-09",
+    "quote_text": "Too many glitches on MF dashboard."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-1",
+    "review_id_hash": "113e8ae0dcd75ce8f627b0a0dc200f9b141970d0f331a78228b4ced589bfbe04",
+    "theme_id": "theme_3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "f&o charges very high and sometimes it's hang at the time of order placed poor app"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-2",
+    "review_id_hash": "917156d589ea8a839b4008bf727ff2decac582cc3de9ccc34ec9d2cd4471a9fd",
+    "theme_id": "theme_3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "worst app i have used for waste of money brokrage are two high"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-3",
+    "review_id_hash": "f8a01befc7b20b324593b3a5585680be0cb16552ccc5df92b57e759d4c8ba36a",
+    "theme_id": "theme_3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-06",
+    "quote_text": "Groww is a scam company."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-4",
+    "review_id_hash": "97fa86c77e045ef89d816305198e0203a5002bfa708db8e86654c4b751cd1cb2",
+    "theme_id": "theme_3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-09",
+    "quote_text": "trade kharidne bechna 100rs charge krte ,20rs buy 20sell 60rs tax, kul milake broker hi kama rahe , kal mera 4k loss and 3k broker charges pay kre in a day, total loss 7k , kul milake broker profit m hai bs"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-5",
+    "review_id_hash": "148c25b7a9bbabd014653368749608dd8720f256ad25cf8dc68b165c6d78e78a",
+    "theme_id": "theme_3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-08",
+    "quote_text": "sabse ghatiya app hai sirf brokerage khata hai aur Kuchh Nahin Hai Koi Bhi Jaane Se download Na Karo Sahi ka App bahut Achcha hai yah third class app Hai yah sirf brokerage ke liye rahata hai aur aapke paise kha jata hai"
+  }
+]

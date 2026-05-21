@@ -1,0 +1,30 @@
+{
+  "run_id": "phase3-3ca75bf61c",
+  "status": "completed",
+  "run_started_at": "2026-05-21T08:55:56.270503+00:00",
+  "integration_model": "mcp_http_only",
+  "mcp_server_url": "https://gmail-docs-mcp.onrender.com",
+  "input_paths": {
+    "weekly_pulse": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-21-a592cc6c\\weekly_pulse.json"
+  },
+  "phase2_metadata_path": "C:\\Users\\Anchit.Boruah\\OneDrive - insidemedia.net\\Desktop\\Vibe Coding_M3 (Review Advisory Agent)\\phase-2\\output\\phase2-2026-05-21-a592cc6c\\run_metadata.json",
+  "reporting_label": "2026-03-26 to 2026-05-21",
+  "content_sha256": "f6f50a8400961a31994b9d5b8b8e3081bee94ac7d407a2a4fde52820828bc384",
+  "google_doc_url": "https://docs.google.com/document/d/1Do22GAKv1LLf-PVzORaNZNJ9qKKh-n4nojReufNEU6s/edit",
+  "word_budget": {
+    "max_words": 250,
+    "substantive_word_count": 195,
+    "truncated": false
+  },
+  "publication": {
+    "google_doc": {
+      "status": "success",
+      "detail": "{\"status\": \"error\", \"message\": \"Unexpected error occurred\", \"details\": \"('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})\"}"
+    },
+    "gmail_draft": {
+      "status": "success",
+      "detail": "{\"status\": \"error\", \"message\": \"Unexpected error occurred\", \"details\": \"('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})\"}"
+    }
+  },
+  "run_finished_at": "2026-05-21T08:56:39.637819+00:00"
+}
