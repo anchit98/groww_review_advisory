@@ -44,8 +44,8 @@ Scheduled cron uses **incremental** automatically.
 |-------|--------|
 | `run_date` | Reporting reference date (UTC). Default: today UTC |
 | `phase2_run_directory` | **Required for phase3_only** — e.g. `output/phase2-2026-05-11-4dd213fe` |
-| `phase2_dry_run` | Phase 2 prepares prompts only; no Groq calls |
-| `dry_run_phase3` | Phase 3 renders note only; no MCP calls |
+| `phase2_dry_run` | Phase 2 prepares prompts only; no Groq calls; **no `weekly_pulse.json`** — Phase 3, archive, and UI sync are skipped |
+| `dry_run_phase3` | Phase 3 renders note only; no MCP calls (requires live Phase 2 / existing `weekly_pulse.json`) |
 | `skip_publish_if_unchanged` | Phase 3 skips MCP if note body hash matches last publish |
 
 ## Pipeline order
@@ -85,6 +85,7 @@ Artifacts upload **even on failure** (`if: always()`).
 |---------|--------------|----------|
 | Fetch / Phase 1 | Network, empty stores, bad CSV | Fix connectivity; re-run **full** or **skip_fetch** if raw exists |
 | Phase 2 | Groq 429 / 403, validation | Wait for quota; inspect `phase-2/output/...`; re-run from Phase 2 or full |
+| Missing `weekly_pulse.json` after Phase 2 | `phase2_dry_run=true` (expected) or live Phase 2 failed before write | Turn off `phase2_dry_run` and set `GROQ_API_KEY`; or open Phase 2 step logs for the real error |
 | Phase 3 Doc | MCP down, bad `GOOGLE_DOC_ID` | Fix secret/MCP; **phase3_only** with same `phase2_run_directory` |
 | Phase 3 Gmail only | `partial_success` in metadata | Doc already appended; fix Gmail/MCP; **phase3_only** retry |
 | Phase 3 `invalid_grant` | Expired/revoked Google refresh token on MCP host | **Re-authenticate** the MCP server (see below); moving OAuth to Production alone does not refresh old tokens |

@@ -223,17 +223,19 @@ jobs:
           fi
 
       - name: Verify Phase 2 handoff for Phase 3
+        if: ${{ !inputs.phase2_dry_run }}
         run: |
           PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
           for f in weekly_pulse.json run_metadata.json; do
             if [ ! -f "${PHASE2_DIR}/${f}" ]; then
               echo "::error::Missing ${PHASE2_DIR}/${f}"
+              echo "::error::If Phase 2 used --dry-run, weekly_pulse.json is not created. Re-run with phase2_dry_run=false and a valid GROQ_API_KEY."
               exit 1
             fi
           done
 
       - name: Archive weekly pulse history
-        if: ${{ success() && (inputs.run_mode || 'incremental') != 'phase3_only' }}
+        if: ${{ success() && !inputs.phase2_dry_run && (inputs.run_mode || 'incremental') != 'phase3_only' }}
         run: |
           RUN_DAY="${{ steps.runvars.outputs.run_date }}"
           PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
@@ -243,6 +245,7 @@ jobs:
             --run-date "${RUN_DAY}"
 
       - name: Phase 3 publish via MCP
+        if: ${{ !inputs.phase2_dry_run }}
         id: phase3
         working-directory: phase-3
         run: |
@@ -263,7 +266,7 @@ jobs:
           python ../scripts/ci/check_phase_result.py phase3_result.json --phase 3
 
       - name: Sync UI runs index (Phase 5)
-        if: success()
+        if: success() && !inputs.phase2_dry_run
         run: |
           RUN_DAY="${{ steps.runvars.outputs.run_date }}"
           PHASE2_DIR="phase-2/${{ steps.phase2path.outputs.run_directory }}"
