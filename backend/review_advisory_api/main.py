@@ -5,7 +5,7 @@ import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from .config import cors_origins, deployment_diagnostics
+from .config import cors_origin_regex, cors_origins, deployment_diagnostics
 from .listing_ratings import fetch_live_listing_ratings, load_listing_ratings
 from .store import (
     StoreError,
@@ -26,9 +26,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins(),
-    allow_origin_regex=r"https://groww-review-advisory.vercel.app/",
+    allow_origin_regex=cors_origin_regex(),
     allow_credentials=False,
-    allow_methods=["GET"],
+    allow_methods=["GET", "OPTIONS"],
     allow_headers=["*"],
 )
 

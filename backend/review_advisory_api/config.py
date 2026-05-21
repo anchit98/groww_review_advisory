@@ -86,12 +86,33 @@ def history_dir() -> Path:
     return _HISTORY_DIR
 
 
+_DEFAULT_CORS_ORIGINS = (
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://groww-review-advisory.vercel.app",
+)
+
+
+def _normalize_origin(origin: str) -> str:
+    return origin.strip().rstrip("/")
+
+
 def cors_origins() -> list[str]:
-    raw = os.environ.get(
-        "CORS_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173",
-    )
-    return [origin.strip() for origin in raw.split(",") if origin.strip()]
+    raw = os.environ.get("CORS_ORIGINS", ",".join(_DEFAULT_CORS_ORIGINS))
+    origins: list[str] = []
+    for part in raw.split(","):
+        normalized = _normalize_origin(part)
+        if normalized and normalized not in origins:
+            origins.append(normalized)
+    for required in _DEFAULT_CORS_ORIGINS:
+        if required not in origins:
+            origins.append(required)
+    return origins
+
+
+def cors_origin_regex() -> str:
+    # Match any *.vercel.app preview or production hostname (no trailing slash).
+    return r"^https://[\w-]+(\.[\w-]+)*\.vercel\.app$"
 
 
 def deployment_diagnostics() -> dict[str, object]:

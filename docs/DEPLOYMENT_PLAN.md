@@ -295,7 +295,7 @@ git add data/history && git commit -m "chore(data): sync runs index" && git push
 | Symptom | Likely cause | Fix |
 |---------|--------------|-----|
 | UI “Unable to load data” | Wrong `VITE_API_URL` or API down | Check Render URL; rebuild Vercel |
-| CORS error in browser | Missing Vercel origin | Add URL to `CORS_ORIGINS`; redeploy Render |
+| CORS error in browser | Cross-origin calls to Render (often `VITE_API_URL` set) or trailing slash in `CORS_ORIGINS` | **Remove `VITE_API_URL` on Vercel** (uses `/api` proxy); or set `CORS_ORIGINS=https://groww-review-advisory.vercel.app` with **no trailing slash** and redeploy Render |
 | Empty runs list / `/api/runs/latest` 404 | `runs_index.json` not found on disk | Leave **Root Directory** empty; set `REVIEW_ADVISORY_HISTORY_DIR=/opt/render/project/src/data/history`; check `GET /health?debug=true` |
 | 404 on `/api/...` | Wrong API base or cold start | Wait for Render wake-up; hit `/health` first |
 | Quotes empty | `quote_candidates.json` missing for run | Re-run sync script; check history folder paths in index |

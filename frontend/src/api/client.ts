@@ -1,12 +1,17 @@
 const DEFAULT_RENDER_API = "https://groww-review-advisory-api.onrender.com";
 
+function isVercelHosted(): boolean {
+  if (typeof window === "undefined") return false;
+  return window.location.hostname.endsWith(".vercel.app");
+}
+
 /** Resolve API base URL at build/runtime (Vite inlines import.meta.env). */
 export function resolveApiBase(): string {
+  // On Vercel, always use same-origin /api proxy (vercel.json) — avoids CORS entirely.
+  if (isVercelHosted()) return "";
   const configured = (import.meta.env.VITE_API_URL ?? "").trim().replace(/\/$/, "");
   if (configured) return configured;
   if (import.meta.env.DEV) return "http://127.0.0.1:8000";
-  // Production on Vercel: same-origin /api/* is proxied via vercel.json (no CORS, no env required).
-  if (typeof window !== "undefined") return "";
   return DEFAULT_RENDER_API;
 }
 
