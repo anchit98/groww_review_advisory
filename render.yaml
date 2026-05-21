@@ -9,12 +9,14 @@ services:
     runtime: python
     plan: free
     branch: main
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install -r requirements.txt && python scripts/ci/verify_history_data.py
     startCommand: uvicorn review_advisory_api.main:app --host 0.0.0.0 --port $PORT --app-dir backend
     healthCheckPath: /health
     envVars:
       - key: REVIEW_ADVISORY_REPO_ROOT
         value: /opt/render/project/src
+      - key: REVIEW_ADVISORY_HISTORY_DIR
+        value: /opt/render/project/src/data/history
       - key: CORS_ORIGINS
         sync: false
         # Set in dashboard, e.g.:

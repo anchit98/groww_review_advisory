@@ -5,7 +5,7 @@ import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from .config import cors_origins
+from .config import cors_origins, deployment_diagnostics
 from .listing_ratings import fetch_live_listing_ratings, load_listing_ratings
 from .store import (
     StoreError,
@@ -33,8 +33,13 @@ app.add_middleware(
 
 
 @app.get("/health")
-def health() -> dict[str, str]:
-    return {"status": "ok"}
+def health(debug: bool = False) -> dict[str, object]:
+    payload: dict[str, object] = {"status": "ok"}
+    if debug:
+        index = load_runs_index()
+        payload.update(deployment_diagnostics())
+        payload["runs_count"] = len(index.get("runs", []))
+    return payload
 
 
 @app.get("/api/runs")

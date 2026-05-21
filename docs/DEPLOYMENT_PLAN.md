@@ -144,7 +144,7 @@ If using Vercel previews, add each preview origin to Render `CORS_ORIGINS` (comm
 |----------|----------|---------|
 | `REVIEW_ADVISORY_REPO_ROOT` | Recommended on Render | `/opt/render/project/src` |
 | `CORS_ORIGINS` | **Yes** | `https://your-app.vercel.app,https://your-app-*.vercel.app,http://localhost:5173` |
-| `REVIEW_ADVISORY_HISTORY_DIR` | Optional | `/opt/render/project/src/data/history` (default: `{REPO_ROOT}/data/history`) |
+| `REVIEW_ADVISORY_HISTORY_DIR` | Recommended on Render | `/opt/render/project/src/data/history` (pins index even if repo root env is wrong) |
 
 **CORS notes:**
 
@@ -295,7 +295,7 @@ git add data/history && git commit -m "chore(data): sync runs index" && git push
 |---------|--------------|-----|
 | UI “Unable to load data” | Wrong `VITE_API_URL` or API down | Check Render URL; rebuild Vercel |
 | CORS error in browser | Missing Vercel origin | Add URL to `CORS_ORIGINS`; redeploy Render |
-| Empty runs list | `runs_index.json` missing / not deployed | Commit `data/history`; verify `REVIEW_ADVISORY_REPO_ROOT` |
+| Empty runs list / `/api/runs/latest` 404 | `runs_index.json` not found on disk | Leave **Root Directory** empty; set `REVIEW_ADVISORY_HISTORY_DIR=/opt/render/project/src/data/history`; check `GET /health?debug=true` |
 | 404 on `/api/...` | Wrong API base or cold start | Wait for Render wake-up; hit `/health` first |
 | Quotes empty | `quote_candidates.json` missing for run | Re-run sync script; check history folder paths in index |
 | Store ratings 404 | No `data/store_ratings.json` | Run Phase 1 fetch or `GET /api/store-ratings?refresh=true` once on Render |

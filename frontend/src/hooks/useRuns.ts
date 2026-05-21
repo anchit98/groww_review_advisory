@@ -50,8 +50,16 @@ export function useSelectedRun(runId: string | undefined) {
       setSummary({ data: null, loading: true, error: null });
       setPulse({ data: null, loading: true, error: null });
       try {
-        const latest = runId ? null : await getLatestRun();
-        const id = runId ?? latest?.run.run_id;
+        let id = runId;
+        if (!id) {
+          try {
+            const latest = await getLatestRun();
+            id = latest.run.run_id;
+          } catch {
+            const listed = await getRuns();
+            id = listed.runs[0]?.run_id;
+          }
+        }
         if (!id) throw new Error("No runs available.");
         const [runPayload, pulsePayload] = await Promise.all([
           getRun(id),
