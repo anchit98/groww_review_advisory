@@ -130,8 +130,10 @@ If using Vercel previews, add each preview origin to Render `CORS_ORIGINS` (comm
 | **Branch** | `main` |
 | **Root Directory** | *(leave empty — repo root)* |
 | **Runtime** | Python 3 |
-| **Build Command** | `pip install -r backend/requirements.txt` |
+| **Build Command** | `pip install -r backend/requirements.txt` **or** `pip install -r requirements.txt` (includes backend + uvicorn) |
 | **Start Command** | `uvicorn review_advisory_api.main:app --host 0.0.0.0 --port $PORT --app-dir backend` |
+
+> **Render failed with `uvicorn: command not found`?** Your build installed root `requirements.txt` without uvicorn. Use `backend/requirements.txt` or the updated root `requirements.txt` that includes `-r backend/requirements.txt`.
 | **Health Check Path** | `/health` |
 
 > **Why repo root?** The API reads `data/history/` at the repository root. If you set Root Directory to `backend` only, you must set `REVIEW_ADVISORY_REPO_ROOT` to the parent path (see env vars).
