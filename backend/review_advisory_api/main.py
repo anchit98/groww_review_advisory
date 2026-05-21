@@ -26,6 +26,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins(),
+    allow_origin_regex=r"https://groww-review-advisory.vercel.app/",
     allow_credentials=False,
     allow_methods=["GET"],
     allow_headers=["*"],

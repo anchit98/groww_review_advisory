@@ -207,10 +207,11 @@ SPA routing is already defined in `frontend/vercel.json` (rewrite to `index.html
 
 | Variable | Environment | Value |
 |----------|-------------|--------|
-| `VITE_API_URL` | Production | `https://<your-render-service>.onrender.com` |
-| `VITE_API_URL` | Preview (optional) | Same Render URL or a staging API |
+| `VITE_API_URL` | Production | **Optional.** Leave unset to use `frontend/vercel.json` proxy (`/api/*` → Render). Or set `https://groww-review-advisory-api.onrender.com` (no trailing slash). |
 
-**No trailing slash** on `VITE_API_URL` (the client strips it).
+**Recommended (simplest):** do **not** set `VITE_API_URL` on Vercel; rely on the `/api` rewrite in `frontend/vercel.json`. Redeploy after any change to that file.
+
+**If you set `VITE_API_URL`:** add your exact Vercel URL to Render `CORS_ORIGINS` (or rely on the built-in `*.vercel.app` allow rule).
 
 Set in **Project → Settings → Environment Variables**. Rebuild after changing.
 
