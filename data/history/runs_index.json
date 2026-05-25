@@ -1,6 +1,28 @@
 {
   "runs": [
     {
+      "week_ending": "2026-05-25",
+      "archived_at": "2026-05-25T10:12:08.605530+00:00",
+      "weekly_pulse_path": "data/history/weekly_pulse/2026-05-25/weekly_pulse.json",
+      "phase2_run_metadata_path": "data/history/weekly_pulse/2026-05-25/phase2_run_metadata.json",
+      "phase2_run_id": "phase2-2026-05-25-b49e00d7",
+      "status": "completed",
+      "reporting_window": {
+        "start_date": "2026-03-30",
+        "end_date": "2026-05-25",
+        "lookback_weeks": 8
+      },
+      "quote_candidates_path": "data/history/weekly_pulse/2026-05-25/quote_candidates.json",
+      "consolidation_response_path": "data/history/weekly_pulse/2026-05-25/consolidation_response.json",
+      "phase3_run_id": "phase3-490405afcb",
+      "phase3_status": "completed",
+      "google_doc_url": "https://docs.google.com/document/d/1Do22GAKv1LLf-PVzORaNZNJ9qKKh-n4nojReufNEU6s/edit",
+      "publication": {
+        "google_doc": "success",
+        "gmail_draft": "success"
+      }
+    },
+    {
       "week_ending": "2026-05-21",
       "archived_at": "2026-05-21T09:47:03.618224+00:00",
       "weekly_pulse_path": "data/history/weekly_pulse/2026-05-21/weekly_pulse.json",
@@ -42,5 +64,5 @@
       }
     }
   ],
-  "updated_at": "2026-05-21T12:00:00.000000+00:00"
+  "updated_at": "2026-05-25T10:12:08.607216+00:00"
 }

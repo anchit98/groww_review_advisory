@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "1-quote-1",
+    "review_id_hash": "e6194f765c340188a02b37d1d3bcd6cd8b9abd9f41f37df51a4a75a2859d7f55",
+    "theme_id": "1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-20",
+    "quote_text": "I'm facing an issue in the bank but nothing has helped by groww support staff.."
+  },
+  {
+    "quote_candidate_id": "1-quote-2",
+    "review_id_hash": "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+    "theme_id": "1",
+    "theme_name": "Poor Customer Support",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-20",
+    "quote_text": "I wish i could give zero star, they have literally no app support."
+  },
+  {
+    "quote_candidate_id": "1-quote-3",
+    "review_id_hash": "2970e864b55af4553a6faba4f446697d7aea2ea35d36d3f771bc5f1236d1ec22",
+    "theme_id": "1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-18",
+    "quote_text": "I am facing significant difficulties in correcting my name on my Groww account."
+  },
+  {
+    "quote_candidate_id": "1-quote-4",
+    "review_id_hash": "a87aa7505ca1dc67970fa01fcaf8865f26de3f833ccf959d6cab620f4e0da813",
+    "theme_id": "1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-24",
+    "quote_text": "I\u2019m disappointed with the Groww app and the support I received."
+  },
+  {
+    "quote_candidate_id": "1-quote-5",
+    "review_id_hash": "9cc53e13ac910b2a39027e8b28ea4bcdd20a3817e7ecc340ad33083bca709713",
+    "theme_id": "1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-22",
+    "quote_text": "Pathetic app with totally useless customer service."
+  },
+  {
+    "quote_candidate_id": "2-quote-1",
+    "review_id_hash": "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+    "theme_id": "2",
+    "theme_name": "Technical Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-13",
+    "quote_text": "I put order in groww in F&O, it didn\u2019t take it even it went down so much."
+  },
+  {
+    "quote_candidate_id": "2-quote-2",
+    "review_id_hash": "40c835df90eec17aef19bc0064ab47c4fecba3b76b9615043d9ff33304a8fe0c",
+    "theme_id": "2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-20",
+    "quote_text": "groow you have work more on your chart.the chart didn't open quickly it stuck"
+  },
+  {
+    "quote_candidate_id": "2-quote-3",
+    "review_id_hash": "a78b674ede50eac3f7a25871a26e5d5fe7986e35b8ad70c85eaec9c805aca764",
+    "theme_id": "2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-18",
+    "quote_text": "bhai jab market movement jayda hoti hei tabhi grow app stop ho jata hei why?"
+  },
+  {
+    "quote_candidate_id": "2-quote-4",
+    "review_id_hash": "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+    "theme_id": "2",
+    "theme_name": "Technical Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-15",
+    "quote_text": "The behavior with customers is not good, proper solutions are not provided, and the app has too many glitches and bugs."
+  },
+  {
+    "quote_candidate_id": "2-quote-5",
+    "review_id_hash": "3e505f3bb86652e7d3ea42ccc07c8b6ea3aa40515179ee67cf80114e7ea2123c",
+    "theme_id": "2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-22",
+    "quote_text": "its as logging probable I'm not able to logging in this app since 2 months"
+  },
+  {
+    "quote_candidate_id": "3-quote-1",
+    "review_id_hash": "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+    "theme_id": "3",
+    "theme_name": "High Brokerage Charges",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-19",
+    "quote_text": "To High charge Brocker and not good compare to other Brocker like profits add instead for trade"
+  },
+  {
+    "quote_candidate_id": "3-quote-2",
+    "review_id_hash": "a1a31035977289332d17eb04d03130bc327f188b1869998ea98452d7f93e932d",
+    "theme_id": "3",
+    "theme_name": "High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-22",
+    "quote_text": "groww faltu brokrage plateform hai, lumpsum 13.5% charges hidden rahte hain jiska koi seedha jabab nahi, 1000 ki sell par 30.55 expenditure with Dp of 20(=16.5+3.5)"
+  },
+  {
+    "quote_candidate_id": "3-quote-3",
+    "review_id_hash": "0c92bbc3c5f250dcb2fb04968afb7d261557a7ab117aed525fb08df95ec4c123",
+    "theme_id": "3",
+    "theme_name": "High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-23",
+    "quote_text": "This app are very high levels brokege and withdrawal money problem any time"
+  },
+  {
+    "quote_candidate_id": "3-quote-4",
+    "review_id_hash": "d95a5011c9518835de10590dff84c58231f9d8b0f4a9988802aa9e28ad8cee47",
+    "theme_id": "3",
+    "theme_name": "High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-19",
+    "quote_text": "very bad app jab se es app par account khola hai loss hi ho raha hai bhut sare charge's lagata hai eska name groww nahi zoro hona chahiye"
+  },
+  {
+    "quote_candidate_id": "3-quote-5",
+    "review_id_hash": "7678024de019be8764b6f70568b1baee164bcd85f0666af06b9ed200802c5df8",
+    "theme_id": "3",
+    "theme_name": "High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-22",
+    "quote_text": "exorbitantly hi brokerage charges for stock trading."
+  }
+]

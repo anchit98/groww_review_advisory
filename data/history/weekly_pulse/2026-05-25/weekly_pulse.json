@@ -1,0 +1,94 @@
+{
+  "opening_summary": "Groww users are experiencing issues with customer support, technical problems, and high brokerage charges.",
+  "top_themes": [
+    {
+      "theme_name": "Poor Customer Support",
+      "summary": "Customers are experiencing poor support from the Groww team, with issues such as unresponsive customer service and unresolved complaints.",
+      "bullet_points": [
+        "Unresponsive customer service",
+        "Unresolved complaints",
+        "Negative user experience",
+        "Affects app reputation",
+        "Needs improvement"
+      ],
+      "linked_final_theme_id": "1"
+    },
+    {
+      "theme_name": "Technical Issues",
+      "summary": "Users are experiencing technical issues such as glitches, bugs, and performance problems with the app.",
+      "bullet_points": [
+        "Glitches and bugs",
+        "Performance problems",
+        "Negative user experience",
+        "Affects app reputation",
+        "Needs resolution"
+      ],
+      "linked_final_theme_id": "2"
+    },
+    {
+      "theme_name": "High Brokerage Charges",
+      "summary": "Users are experiencing high brokerage charges, which are affecting their trading experience and profitability.",
+      "bullet_points": [
+        "High brokerage charges",
+        "Affects trading experience",
+        "Affects profitability",
+        "Negative user experience",
+        "Needs review"
+      ],
+      "linked_final_theme_id": "3"
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "I'm facing an issue in the bank but nothing has helped by groww support staff..",
+      "review_id_hash": "e6194f765c340188a02b37d1d3bcd6cd8b9abd9f41f37df51a4a75a2859d7f55",
+      "theme_name": "Poor Customer Support"
+    },
+    {
+      "quote": "groow you have work more on your chart.the chart didn't open quickly it stuck",
+      "review_id_hash": "40c835df90eec17aef19bc0064ab47c4fecba3b76b9615043d9ff33304a8fe0c",
+      "theme_name": "Technical Issues"
+    },
+    {
+      "quote": "exorbitantly hi brokerage charges for stock trading.",
+      "review_id_hash": "7678024de019be8764b6f70568b1baee164bcd85f0666af06b9ed200802c5df8",
+      "theme_name": "High Brokerage Charges"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve Customer Support",
+      "bullet_points": [
+        "Hire more support staff",
+        "Implement a ticketing system",
+        "Provide 24/7 support",
+        "Offer multilingual support",
+        "Conduct regular training"
+      ],
+      "linked_theme": "Poor Customer Support"
+    },
+    {
+      "action": "Resolve Technical Issues",
+      "bullet_points": [
+        "Conduct regular app updates",
+        "Fix bugs and glitches",
+        "Improve app performance",
+        "Enhance user experience",
+        "Conduct user testing"
+      ],
+      "linked_theme": "Technical Issues"
+    },
+    {
+      "action": "Review Brokerage Charges",
+      "bullet_points": [
+        "Conduct market research",
+        "Compare with competitors",
+        "Adjust brokerage charges",
+        "Offer discounts for bulk trades",
+        "Provide transparent pricing"
+      ],
+      "linked_theme": "High Brokerage Charges"
+    }
+  ],
+  "coverage_note": "App Store public coverage did not reach the full requested lookback window. The stored snapshot contains the newest publicly reachable reviews only."
+}

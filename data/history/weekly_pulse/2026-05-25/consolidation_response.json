@@ -1,0 +1,135 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "1",
+      "final_theme_name": "Poor Customer Support",
+      "sentiment": "negative",
+      "summary": "Customers are experiencing poor support from the Groww team, with issues such as unresponsive customer service and unresolved complaints.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-5"
+      ],
+      "supporting_review_ids": [
+        "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618",
+        "1b9fe2d9f4b2dd43c638fb9d232c91c6de400e9d6bb8e5bbecde73447817ff12",
+        "2970e864b55af4553a6faba4f446697d7aea2ea35d36d3f771bc5f1236d1ec22",
+        "29fb034ac6b698edd37c801479945ea353412cb5a7f045879d15df2107bef77e",
+        "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+        "9cc53e13ac910b2a39027e8b28ea4bcdd20a3817e7ecc340ad33083bca709713",
+        "a87aa7505ca1dc67970fa01fcaf8865f26de3f833ccf959d6cab620f4e0da813",
+        "e6194f765c340188a02b37d1d3bcd6cd8b9abd9f41f37df51a4a75a2859d7f55",
+        "dbeaa14f048f5e6b7119df78531371dbdf8ae88f5dda244b26ed5ed03dfc7cb5"
+      ],
+      "why_this_theme_matters": "Poor customer support can lead to a negative user experience and affect the app's reputation.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "2",
+      "final_theme_name": "Technical Issues",
+      "sentiment": "negative",
+      "summary": "Users are experiencing technical issues such as glitches, bugs, and performance problems with the app.",
+      "supporting_candidate_theme_ids": [
+        "theme-2",
+        "theme_2"
+      ],
+      "supporting_review_ids": [
+        "89caba09177115ccd06230fc32019cd284f9b39914752aaeea91e0897ec465ee",
+        "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+        "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+        "12cf011f14ced9047adf0b6d23b89f65c4a0620b91e810b4b2dfb72e4a976039",
+        "a78b674ede50eac3f7a25871a26e5d5fe7986e35b8ad70c85eaec9c805aca764",
+        "76cd5a8b0218db7384b7ad53342a0705e011b3752d6dc00470a9a144f9398ea4",
+        "0f6d3b48de00da01f451d89720146b915dd537af92398cea8189047499330883",
+        "40c835df90eec17aef19bc0064ab47c4fecba3b76b9615043d9ff33304a8fe0c",
+        "b42f3056a2829642019828429f11ce71d35c1406da5d0c5e26a25e98c308b5b0",
+        "3e505f3bb86652e7d3ea42ccc07c8b6ea3aa40515179ee67cf80114e7ea2123c",
+        "bc401187166414892cf1030312e12bfaddb5cd0bb0551634569946115049a837",
+        "8b491e8446bbcfa705a3e7c138a1bb56adf3538b29d0c3d6d96ca118c138fc2c",
+        "fed2b91b544984bdb75d3758b2da4689dacf27c6f90ee0725657129ff5253973",
+        "dbeaa14f048f5e6b7119df78531371dbdf8ae88f5dda244b26ed5ed03dfc7cb5"
+      ],
+      "why_this_theme_matters": "Technical issues can lead to a negative user experience and affect the app's reputation.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "3",
+      "final_theme_name": "High Brokerage Charges",
+      "sentiment": "negative",
+      "summary": "Users are experiencing high brokerage charges, which are affecting their trading experience and profitability.",
+      "supporting_candidate_theme_ids": [
+        "theme-4"
+      ],
+      "supporting_review_ids": [
+        "0773c2ad07062263b0249ae08683f702dfdac6dce1633e786246bdb1cdfa6944",
+        "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618",
+        "0c92bbc3c5f250dcb2fb04968afb7d261557a7ab117aed525fb08df95ec4c123",
+        "568d2db7d85f5ccb7fb8961c5f2230b6169b49d0abc6d4add6aef7f9bb110fb0",
+        "7678024de019be8764b6f70568b1baee164bcd85f0666af06b9ed200802c5df8",
+        "8a9c360b0e68b9b9c2d0d0482c8617abc2274f233fcb52514b199c916023db8c",
+        "a1a31035977289332d17eb04d03130bc327f188b1869998ea98452d7f93e932d",
+        "a2fc53a4855fbec65107b602eef496d6a253bdc85d6b69cfd8bf1af5a65346dc",
+        "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+        "d95a5011c9518835de10590dff84c58231f9d8b0f4a9988802aa9e28ad8cee47",
+        "57e12cf40c6adb24716035c180098a045c7d29609f10dbef401a80b572d3464b",
+        "2b8f7294a90ef50b14ae7cea1bbd7b47e74725f18ebde265d96b9dab66b616e2"
+      ],
+      "why_this_theme_matters": "High brokerage charges can affect users' profitability and lead to a negative user experience.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "4",
+      "final_theme_name": "User-Friendly Interface",
+      "sentiment": "positive",
+      "summary": "Users praise the app's clean, easy-to-use, and user-friendly interface.",
+      "supporting_candidate_theme_ids": [
+        "1",
+        "theme_1",
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "086c0ac003ed8bd231f5e1583294b8e287007735e1ec9ba9adc8493e6e7d13d2",
+        "1ce08e5d2e49aefc4bc8db8dbb9f79ec81f4cd2d7c341e12f5a8428352dabb9d",
+        "35981a51971b1f39f652084c4f2de4c67f3684088cd4003a824d4941c05061bf",
+        "37d6cf8ab6d23677f1769bd4cb93deced66c7f1c142c60d85c941d2241635bd2",
+        "4564c48c824aee4722ac0d5c418e6df1895fab21ca835fe112bcbb9d39fbcc1f",
+        "cf11efecce161619b6cab0d03e483431096a167ec0d279b30b168aa902a43aef",
+        "fdcf88f3fbf6f70bbb7301ba6c983dd219ccf80c93f46b418f1f57a8346b7208",
+        "08b4936e95c1742bf8d91a5f43319cc5d51c551195f094648850468e4097a229",
+        "718cee695766fc95c4e6cc72290d7cc6248235287021965622e8b22ff5e088a1",
+        "7f33ecef8f0d1ad3ea23472c75018dfcb963e5d0b7d498302c4199084a36d960",
+        "b4770a6e515153b81437488fd9fba885434bea371d17903440688767ed45d0c2",
+        "fdd9f35983decc1f7a49ff95e8c104963fde63257d04eb4081a8277c3807c141",
+        "ff2a27b6901eaa9ba35d833d2d67aafe0177f97f8fe821956614bd7416e5bd5d",
+        "22ab93c090c50ea297f5eca197427d9f63d43c486f201019ec83fe82c76e8fec"
+      ],
+      "why_this_theme_matters": "A user-friendly interface can lead to a positive user experience and increase user engagement.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "5",
+      "final_theme_name": "Suggestions for Improvement",
+      "sentiment": "mixed",
+      "summary": "Users have provided suggestions for improvement, such as adding new features and improving the user interface.",
+      "supporting_candidate_theme_ids": [
+        "theme-3",
+        "3",
+        "theme_4"
+      ],
+      "supporting_review_ids": [
+        "98cf3631293c76554365bee83f8af4073a132f6ded5d72323d55bcb7178039b0",
+        "b070e0711f373b26b026b3ef7164201a33229e0a07319f4cd1516ede2be7e476",
+        "84136addb8937fecbed6bf9dfd0776984befa5e7722809154468a4a508791220",
+        "51d1295afe32107389fa6bf03e51cf6052b7dd1956ef234597d633ef1d0537f6",
+        "e34687bb08d4f7ee1a10a9408047455f91099827da91c0df408d9e0c6ddf9f06",
+        "87cb306249054147a5298a7b1f1fb8bb6e35e81dd2971d5c4e147d1a29aaec4d",
+        "072b72d8decdcf08c9923902f7fb3f001353f672109e1238771403d3bb538fe1",
+        "cf60f46f7c5b75d2de4b9b20d0364261fb8be6c56b7eaa7b92cc602b5c8ca85c",
+        "7c860cca2eba6da5aabd04474199d61eac175e4d9e5d17fcc29128963d1a0fab",
+        "c420776be9e7f372237cb0e45cb8d58d7b52614bdf5308d4f1283f90f98ed59c",
+        "cee7e8a972d90fa2304921d58c644fa57b13dbf368c347706de5e85c8e9c8a4a"
+      ],
+      "why_this_theme_matters": "Suggestions for improvement can help the app to identify areas for improvement and increase user satisfaction.",
+      "priority_rank": 5
+    }
+  ]
+}
