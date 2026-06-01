@@ -1,0 +1,115 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "theme_1",
+      "final_theme_name": "Poor Customer Support and App Performance",
+      "sentiment": "negative",
+      "summary": "Customers are experiencing poor support from the Groww team, and the app is experiencing technical issues such as crashes, glitches, and bugs.",
+      "supporting_candidate_theme_ids": [
+        "theme_1",
+        "theme_2"
+      ],
+      "supporting_review_ids": [
+        "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618",
+        "29fb034ac6b698edd37c801479945ea353412cb5a7f045879d15df2107bef77e",
+        "3020f4eebb94b9274a0bf7d614ad3833a303f2c535db97f1549d8d40c5ccb94d",
+        "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+        "93fe394f252bee28378af0e90d7d12c53109a70c4f2be94504585f2c160ff95a",
+        "a8dbcb2583b6abb09b83b1fdcce7855a130efbd3687f9d7539ada80dfd1cc26e",
+        "d152696745d5c8d45c2d979aac3edfc075f290225e8259ac5e2eb267ec39933e",
+        "dbeaa14f048f5e6b7119df78531371dbdf8ae88f5dda244b26ed5ed03dfc7cb5",
+        "f95e89c8ed516e436a9064a29d12d8fc390d85e9621163a2fb71fbb5746a24ef",
+        "0fe01e997c80cb65b2e56de922c6c6b316a12089f8a43a2247921d8ed0a9a87d",
+        "7028e44f6e3ccdcd21421d7b5627239eee104d3edcbdefcf783bd5f1d4dbb580",
+        "d97dd91a2601b6f19010d50f6ab8cde4418dcdcfedddc8e5820e8141e396ed2b",
+        "17628fa6d79038cf2f13c3ac8e890739572574f3093362ba9e084fe66c34588a",
+        "7811a5fc4ced9a3184c4e63a4d31159a65dcba1ed1a230162ba539d9211fe49b",
+        "f0aabd7cff3e5532071069baad82ad8ec9c90feb430aa2e7dd1e185e4f57103b",
+        "f25da121d70e9191c19a5e244627679db3e777ca2e93de5bf4253fd5b5ecb187"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the overall user experience and satisfaction with the app.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "theme_2",
+      "final_theme_name": "Technical Issues and App Glitches",
+      "sentiment": "negative",
+      "summary": "The Groww app is experiencing technical issues such as crashes, glitches, and bugs, which are affecting users' ability to trade and use the app.",
+      "supporting_candidate_theme_ids": [
+        "theme_2",
+        "theme-2"
+      ],
+      "supporting_review_ids": [
+        "89caba09177115ccd06230fc32019cd284f9b39914752aaeea91e0897ec465ee",
+        "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+        "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+        "1cdd943e207dc09321f4611d635b64ed24e80972297cdd34532e37d817e3c4f4",
+        "1ef20a45531c4b0b1b11174e9fb4aa32b4e554498c9d5c5aa3869c66a7b8a837",
+        "a15fb87fc065dd03f2888c0254d68e9c19eae5447bb909abeecb6e8f7fe3b6e3",
+        "db2af5abe55504103efbd43ac919b928b04ec72b7bc3c8f67d3f2f2a7c24ced4",
+        "dd9f374e93dca088101b78b770aa7f000f967487f16b9742e7cbc71f98d5b6b3",
+        "df937199795ddd5a2ffee11df4a41d00a4a51b7b0366f5ca36f22b4cfc6fd104",
+        "8797ef2dd4b4da4aafc1b34437138c8b13f00a0d4219f03df1cc9d236662b312",
+        "36c5b7d907afcf90ba5d8ecd0cb26d1c8f4c0579cd941d39bebbb51a97966e79"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the app's reliability and usability.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "theme_3",
+      "final_theme_name": "Unsatisfactory Charges and Fees",
+      "sentiment": "negative",
+      "summary": "Users are complaining about high charges and fees associated with using the app, particularly for intraday trading.",
+      "supporting_candidate_theme_ids": [
+        "theme_4",
+        "theme-4"
+      ],
+      "supporting_review_ids": [
+        "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618",
+        "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+        "f4edaf7fcca65b23a75216b408900659cf6c1bebc4a862e1286119926e467488"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects users' financial decisions and satisfaction with the app.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "theme_4",
+      "final_theme_name": "Ease of Use and User Interface",
+      "sentiment": "positive",
+      "summary": "Users find the app easy to use and navigate, and they like the interactive layout and design of the app.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-2"
+      ],
+      "supporting_review_ids": [
+        "0cf84769c94bddb0b4d8ddefab08a55d0588b3433efc5e09a818e0af1212789b",
+        "11ab35298d75e514b2369a400c7472804527e6b249513b224ba087fbef97be69",
+        "a8c47260e64ad9bc1b422e6d06d8d2bd3ebd1ab1059ece86625fe90599dce321",
+        "787b6a8bed7420a3cf540e8f740ee1470ee6d6c7a58ec747564b4dac418d219e",
+        "e29de3993dcec9c554ad9c83ed4a973a484c3826f8ccb2de980c3c31c659b823",
+        "eab948bdc774674126c154cbb4434353b290a781d0a0444aeeff28217b25bbcc",
+        "55b3bd8f4a4da6ea6e6d6ec57cc7bec7f8902bf53921bda4142f401f34590363"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the overall user experience and satisfaction with the app.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "theme_5",
+      "final_theme_name": "Satisfaction with Investment Experience",
+      "sentiment": "positive",
+      "summary": "Users are satisfied with their investment experience using the app, and they appreciate the various investment features and tools provided by the app.",
+      "supporting_candidate_theme_ids": [
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "2f365894b096803f5d68557a25e5421097794c8cf5f9a4829b9ffc404bcdb0e2",
+        "3cbc1b76f78b0b6a1ea8ec38f6be7734bd585eebcf61f3ce50a6edba47def471",
+        "d2b3643e3a2faed5d01487400d6a82994178ab31389fc0f383a7be9f27dd55d0",
+        "4b70086283e1f084326f82c15dca3b1a981539054d50f72886d432a131cf6b07",
+        "99dcfe0327500a6cd0dda45c5685fb0976e0d073f797a24559c72d97d9cd4c38"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects users' financial decisions and satisfaction with the app.",
+      "priority_rank": 5
+    }
+  ]
+}

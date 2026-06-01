@@ -1,0 +1,94 @@
+{
+  "opening_summary": "Groww app users are experiencing poor customer support, technical issues, and unsatisfactory charges.",
+  "top_themes": [
+    {
+      "theme_name": "Poor Customer Support and App Performance",
+      "summary": "Customers are experiencing poor support and technical issues with the app.",
+      "bullet_points": [
+        "Users face slow and sluggish app performance",
+        "App crashes and glitches affect trading",
+        "Customer support is unresponsive and unhelpful",
+        "Users experience losses due to old data",
+        "App issues lead to frustrating user experience"
+      ],
+      "linked_final_theme_id": "theme_1"
+    },
+    {
+      "theme_name": "Technical Issues and App Glitches",
+      "summary": "The app is experiencing technical issues and glitches.",
+      "bullet_points": [
+        "App glitches cause trading issues",
+        "Interface is becoming poor and difficult to use",
+        "App crashes during high trading positions",
+        "Glitches lead to unresponsive customer support",
+        "Users experience difficulties with buying and selling"
+      ],
+      "linked_final_theme_id": "theme_2"
+    },
+    {
+      "theme_name": "Unsatisfactory Charges and Fees",
+      "summary": "Users are complaining about high charges and fees.",
+      "bullet_points": [
+        "Brokerage charges are high compared to others",
+        "Users experience high charges for intraday trading",
+        "Charges are not competitive with other brokers",
+        "Users are dissatisfied with fee structure",
+        "High charges affect user's financial decisions"
+      ],
+      "linked_final_theme_id": "theme_3"
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "after update it became very slow and sluggish",
+      "review_id_hash": "17628fa6d79038cf2f13c3ac8e890739572574f3093362ba9e084fe66c34588a",
+      "theme_name": "Poor Customer Support and App Performance"
+    },
+    {
+      "quote": "there is glitch new version please fix this",
+      "review_id_hash": "a15fb87fc065dd03f2888c0254d68e9c19eae5447bb909abeecb6e8f7fe3b6e3",
+      "theme_name": "Technical Issues and App Glitches"
+    },
+    {
+      "quote": "To High charge Brocker and not good compare to other Brocker like profits add instead for trade",
+      "review_id_hash": "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+      "theme_name": "Unsatisfactory Charges and Fees"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve Customer Support and App Performance",
+      "bullet_points": [
+        "Hire more customer support agents",
+        "Implement a more efficient ticketing system",
+        "Conduct regular app performance checks",
+        "Gather user feedback for improvement",
+        "Provide regular updates and fixes"
+      ],
+      "linked_theme": "Poor Customer Support and App Performance"
+    },
+    {
+      "action": "Fix Technical Issues and App Glitches",
+      "bullet_points": [
+        "Conduct thorough testing before updates",
+        "Implement a bug tracking system",
+        "Provide clear instructions for users",
+        "Gather user feedback for improvement",
+        "Provide regular updates and fixes"
+      ],
+      "linked_theme": "Technical Issues and App Glitches"
+    },
+    {
+      "action": "Review and Adjust Charges and Fees",
+      "bullet_points": [
+        "Conduct market research on competitor fees",
+        "Gather user feedback on fee structure",
+        "Consider adjusting fees for intraday trading",
+        "Provide clear and transparent fee information",
+        "Review and adjust fees regularly"
+      ],
+      "linked_theme": "Unsatisfactory Charges and Fees"
+    }
+  ],
+  "coverage_note": "App Store public coverage did not reach the full requested lookback window."
+}

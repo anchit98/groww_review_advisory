@@ -1,0 +1,122 @@
+[
+  {
+    "quote_candidate_id": "theme_1-quote-1",
+    "review_id_hash": "17628fa6d79038cf2f13c3ac8e890739572574f3093362ba9e084fe66c34588a",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and App Performance",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-05-27",
+    "quote_text": "after update it became very slow and sluggish"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-2",
+    "review_id_hash": "7811a5fc4ced9a3184c4e63a4d31159a65dcba1ed1a230162ba539d9211fe49b",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-26",
+    "quote_text": "worst app ever ....keeps crashing everytime and buy order don't excuse at the time and customer support is wrost ."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-3",
+    "review_id_hash": "d97dd91a2601b6f19010d50f6ab8cde4418dcdcfedddc8e5820e8141e396ed2b",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-26",
+    "quote_text": "while trading they show old data and the second we end the trade it shows double Or triple loss, , useless app for trading"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-4",
+    "review_id_hash": "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and App Performance",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-20",
+    "quote_text": "I wish i could give zero star, they have literally no app support."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-5",
+    "review_id_hash": "0fe01e997c80cb65b2e56de922c6c6b316a12089f8a43a2247921d8ed0a9a87d",
+    "theme_id": "theme_1",
+    "theme_name": "Poor Customer Support and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-26",
+    "quote_text": "I've been using Groww since July 2020 and appreciated its simplicity for trading."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-1",
+    "review_id_hash": "a15fb87fc065dd03f2888c0254d68e9c19eae5447bb909abeecb6e8f7fe3b6e3",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Glitches",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-29",
+    "quote_text": "there is glitch new version please fix this.swipped left to right continue.old.version is far best"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-2",
+    "review_id_hash": "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Glitches",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-13",
+    "quote_text": "I put order in groww in F&O, it didn\u2019t take it even it went down so much."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-3",
+    "review_id_hash": "1cdd943e207dc09321f4611d635b64ed24e80972297cdd34532e37d817e3c4f4",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Glitches",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-29",
+    "quote_text": "The interface of this application is becoming increasingly poor and difficult to use with every update."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-4",
+    "review_id_hash": "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Glitches",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-15",
+    "quote_text": "The behavior with customers is not good, proper solutions are not provided, and the app has too many glitches and bugs."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-5",
+    "review_id_hash": "89caba09177115ccd06230fc32019cd284f9b39914752aaeea91e0897ec465ee",
+    "theme_id": "theme_2",
+    "theme_name": "Technical Issues and App Glitches",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-10",
+    "quote_text": "In the need of high trading positions and high people on app, the app gets crash and not let you buy or sell at a particular time."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-1",
+    "review_id_hash": "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+    "theme_id": "theme_3",
+    "theme_name": "Unsatisfactory Charges and Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-19",
+    "quote_text": "To High charge Brocker and not good compare to other Brocker like profits add instead for trade"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-2",
+    "review_id_hash": "0c08d76c0284613969d23f66367d0efcefd38e355563c2b7fdf4ea06ccb24618",
+    "theme_id": "theme_3",
+    "theme_name": "Unsatisfactory Charges and Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-09",
+    "quote_text": "I raised complaint for amount updating since last 5 days no responding on customer service Customer support is not responding properly don\u2019t invest on grow Brokerage charges also high but user interface is good"
+  }
+]

@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-05-25T10:06:15.173426+00:00",
+  "updated_at": "2026-06-01T11:33:38.642275+00:00",
   "rolling_window_weeks": 8,
   "reporting_window": {
-    "start_date": "2026-03-30",
-    "end_date": "2026-05-25",
+    "start_date": "2026-04-06",
+    "end_date": "2026-06-01",
     "lookback_weeks": 8
   },
   "counts": {
-    "total_reviews": 1297,
-    "new_reviews_this_run": 85,
-    "updated_existing": 82,
-    "pruned_outside_window": 0
+    "total_reviews": 1493,
+    "new_reviews_this_run": 206,
+    "updated_existing": 2,
+    "pruned_outside_window": 10
   },
-  "last_run_id": "phase1-2026-05-25-cadb0e74",
+  "last_run_id": "phase1-2026-06-01-f2688fc5",
   "first_populated_at": "2026-05-21T15:59:36.110313+00:00"
 }
