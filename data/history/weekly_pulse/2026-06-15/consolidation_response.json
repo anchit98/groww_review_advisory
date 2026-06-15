@@ -1,0 +1,116 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "theme-1",
+      "final_theme_name": "Poor Customer Support",
+      "sentiment": "negative",
+      "summary": "Users are experiencing poor customer support, including unresponsive support teams and unhelpful chatbots.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme_2",
+        "theme-2",
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "29fb034ac6b698edd37c801479945ea353412cb5a7f045879d15df2107bef77e",
+        "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+        "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+        "a8dbcb2583b6abb09b83b1fdcce7855a130efbd3687f9d7539ada80dfd1cc26e",
+        "05822d6edf2735f40b95a0a5a9d5f03edcf6da62d978b30518ecfdf8aebef438",
+        "71171520aecc1d042c8125b8f7f688f3743f4055e38840cf80e18dc244137b2c",
+        "7ed44b87bdb7258514e269bdd9992ccc4ad656b93601f5052ab2b1edc2c9f177",
+        "93461762ed632f99fb96d70c62f76e46bb24cd5f608081d527673cee4ad2b005",
+        "f95e89c8ed516e436a9064a29d12d8fc390d85e9621163a2fb71fbb5746a24ef"
+      ],
+      "why_this_theme_matters": "Poor customer support can lead to a negative user experience and impact the app's reputation.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "theme-2",
+      "final_theme_name": "Technical Issues",
+      "sentiment": "negative",
+      "summary": "Users are experiencing technical issues, including glitches, bugs, and login problems.",
+      "supporting_candidate_theme_ids": [
+        "theme-2"
+      ],
+      "supporting_review_ids": [
+        "0c0e01609d7171cb803df393fbf7271024e24b30a214c099e0df8b4368729fe7",
+        "3303bf4c136c2dcc5c4a0fb37557d0c730c683abeb88f3642dab26115875570a",
+        "33a8ac4d354dca7ff8e2b2b89b7897b77389dfb04fa915984477a31e82669554",
+        "36c5b7d907afcf90ba5d8ecd0cb26d1c8f4c0579cd941d39bebbb51a97966e79",
+        "3d6c7e00ffbab670c4d734e1ce239145e4ccc1d1b97d491fafcd3ca87a70f3b8",
+        "622d54eff7bdd1dbe4af2b90647e1e744413731e6a2a5298817106f219cfc2f9",
+        "672c45e033b4d6c8ac013826c1ba65f107622e2bcab9ecf37804e95a02cce571",
+        "82d8d15d8e08e1966ecea663fdbeed7876eb3a71da73ad0c632a82ced7d71d3d",
+        "a3d8a158d4f7053f9be73e6649ceb9d3cd2209ee9f7fa4e7bff2cf0e0800d908",
+        "d7e716b8e62094c4a8bbba07f4cf91cbe905c936a486c2a15294aab519289a46",
+        "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9"
+      ],
+      "why_this_theme_matters": "Technical issues can cause frustration and impact the app's usability.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "theme-3",
+      "final_theme_name": "High Charges and Fees",
+      "sentiment": "negative",
+      "summary": "Users are unhappy with the high charges and fees associated with using the app.",
+      "supporting_candidate_theme_ids": [
+        "theme-4",
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+        "ee517a008b3a890e091fe5aac92433c87b99849867852b6f478e32da0af16cc6",
+        "209825dc1a3e9b27369f41ec9600953ad50ad7cfd450a97bc0f571cc0659a435",
+        "3ebb7fc47af4176cfd530ddf63809ef0fcfb3a11c7e3fc67328ae1477d3e4157",
+        "9f8025e98cd1773a7886d38a1843da8ec52b2172a7dfe59408950b37624bb74d",
+        "b3d303de7ff8632a03659eeb255140a12ab28cd632b27dd2e66f15a36249cdc0",
+        "dac3875a115fdc93ba40d3e4a346c625597a6559385b5b7d6164189aba31f0ba",
+        "de7e203efe84eb6c57a64ac95448c0d686cde267858ac0f9b7c6af0ac211525a",
+        "e05581e30fa627169d937693e3c325d47f8835a7caf6229f474e64249ae8e68d"
+      ],
+      "why_this_theme_matters": "High charges and fees can be a significant deterrent for users and impact the app's adoption.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "theme-4",
+      "final_theme_name": "Poor Trading Experience",
+      "sentiment": "negative",
+      "summary": "Users are experiencing a poor trading experience, including issues with order placement and trade execution.",
+      "supporting_candidate_theme_ids": [
+        "theme-5"
+      ],
+      "supporting_review_ids": [
+        "81a4efc0d9fd5e2a22f1fe72ea6ab1d2decd615f0cb1c11cb6461e3cffdb4f81",
+        "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+        "dd197c4d7014f16b2ec9fecbda655f29c085dbfe756c65515df2956f9aab80b9",
+        "ed55ea0131e0e7afcfb2b8d1d4dfde2d9a662448f70c597696c0c9bf112febf8",
+        "f428e6a071f08ca94471b32b779bfc480604b41efe9dee4c10f73a5d4603d7e7"
+      ],
+      "why_this_theme_matters": "A poor trading experience can lead to user dissatisfaction and impact the app's reputation.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "theme-5",
+      "final_theme_name": "User-friendly Interface and Ease of Use",
+      "sentiment": "positive",
+      "summary": "Users find the app easy to use and navigate, with a clean and simple interface.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-3",
+        "theme-2"
+      ],
+      "supporting_review_ids": [
+        "103cdd9366082c6462470416d9f57315979c5d8ffcb64b135d4482cd897d3374",
+        "09629d6b391b021c9ba2ad34324318114b610b1eb993d172336c2fd0cb805d35",
+        "fa1c58619e5e5114106013ca4c898c2a74e65e838475be878d5ecc2c512accc2",
+        "19b185d56673d08502bc12802546aae64786e00bfe7ff88e487c630823a4ec52",
+        "08315f4fdb3f36c09e19bf5e2179c1e977c3e81ff9935d2957fd85b68cf35c04",
+        "348312fa6006b71658a8ed6eaee3a5ce4d635a9e1d2477c2d653a7beb18ff53e",
+        "d1d6088625f5893a6f3e57a2e047ee47253f328d9295f28f82f6c4bb14530d2a"
+      ],
+      "why_this_theme_matters": "A user-friendly interface and ease of use can lead to a positive user experience and increase user engagement.",
+      "priority_rank": 5
+    }
+  ]
+}

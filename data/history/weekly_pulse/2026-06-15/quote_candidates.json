@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "theme-1-quote-1",
+    "review_id_hash": "6b8c448636cdc83038cd0233ebc75634e597e4f8554b4230658da1a1880af7e4",
+    "theme_id": "theme-1",
+    "theme_name": "Poor Customer Support",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-15",
+    "quote_text": "The behavior with customers is not good, proper solutions are not provided, and the app has too many glitches and bugs."
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-2",
+    "review_id_hash": "5c14d9b8df58cec399165e9aa8b8bc011c77680a4c285d9f96e593a2484f872b",
+    "theme_id": "theme-1",
+    "theme_name": "Poor Customer Support",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-20",
+    "quote_text": "I wish i could give zero star, they have literally no app support."
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-3",
+    "review_id_hash": "93461762ed632f99fb96d70c62f76e46bb24cd5f608081d527673cee4ad2b005",
+    "theme_id": "theme-1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-06-11",
+    "quote_text": "I started sip and then cancel it with profit of 9 percent ."
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-4",
+    "review_id_hash": "05822d6edf2735f40b95a0a5a9d5f03edcf6da62d978b30518ecfdf8aebef438",
+    "theme_id": "theme-1",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-06-09",
+    "quote_text": "very poor service today in terms of help of customer care"
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-5",
+    "review_id_hash": "29fb034ac6b698edd37c801479945ea353412cb5a7f045879d15df2107bef77e",
+    "theme_id": "theme-1",
+    "theme_name": "Poor Customer Support",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-11",
+    "quote_text": "The stock holding list is completely wrong."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-1",
+    "review_id_hash": "d84ad4a6c6190959305c1b68f827393fc8e9b94ad51b0e89965da32877f8bcf9",
+    "theme_id": "theme-2",
+    "theme_name": "Technical Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-13",
+    "quote_text": "I put order in groww in F&O, it didn\u2019t take it even it went down so much."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-2",
+    "review_id_hash": "d7e716b8e62094c4a8bbba07f4cf91cbe905c936a486c2a15294aab519289a46",
+    "theme_id": "theme-2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-30",
+    "quote_text": "Much time technical problem and many order failed from groww ends and loss taken by customer."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-3",
+    "review_id_hash": "0c0e01609d7171cb803df393fbf7271024e24b30a214c099e0df8b4368729fe7",
+    "theme_id": "theme-2",
+    "theme_name": "Technical Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-14",
+    "quote_text": "Login issues ho rhe hai bar bar otp dalne ke bad bhi login nhi ho raha"
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-4",
+    "review_id_hash": "33a8ac4d354dca7ff8e2b2b89b7897b77389dfb04fa915984477a31e82669554",
+    "theme_id": "theme-2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-05-30",
+    "quote_text": "IMPROVE YOUR ADS im not able to play my game because ur ads were gliching"
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-5",
+    "review_id_hash": "622d54eff7bdd1dbe4af2b90647e1e744413731e6a2a5298817106f219cfc2f9",
+    "theme_id": "theme-2",
+    "theme_name": "Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-06-08",
+    "quote_text": "Just add a option where I can loging without mobile no."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-1",
+    "review_id_hash": "3ebb7fc47af4176cfd530ddf63809ef0fcfb3a11c7e3fc67328ae1477d3e4157",
+    "theme_id": "theme-3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-06-12",
+    "quote_text": "the app is good but charges are very high."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-2",
+    "review_id_hash": "ca74865bef79d91044bef218637dd115b02a58f833c9fcb82c129bbcd7509440",
+    "theme_id": "theme-3",
+    "theme_name": "High Charges and Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-05-19",
+    "quote_text": "To High charge Brocker and not good compare to other Brocker like profits add instead for trade"
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-3",
+    "review_id_hash": "dac3875a115fdc93ba40d3e4a346c625597a6559385b5b7d6164189aba31f0ba",
+    "theme_id": "theme-3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-06-10",
+    "quote_text": "broker charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga"
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-4",
+    "review_id_hash": "ee517a008b3a890e091fe5aac92433c87b99849867852b6f478e32da0af16cc6",
+    "theme_id": "theme-3",
+    "theme_name": "High Charges and Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-06-10",
+    "quote_text": "If you are a small invester they will simple cut the amount indirectly without informing."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-5",
+    "review_id_hash": "9f8025e98cd1773a7886d38a1843da8ec52b2172a7dfe59408950b37624bb74d",
+    "theme_id": "theme-3",
+    "theme_name": "High Charges and Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-06-10",
+    "quote_text": "charges are very high and all grow investors are in loss"
+  }
+]
