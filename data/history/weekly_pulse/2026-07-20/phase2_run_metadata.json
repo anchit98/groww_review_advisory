@@ -1,0 +1,74 @@
+{
+  "run_id": "phase2-2026-07-20-721f5a3e",
+  "status": "completed",
+  "run_started_at": "2026-07-20T08:56:50.331213+00:00",
+  "phase1_handoff": {
+    "normalized_reviews_path": "../phase-1/output/phase1-2026-07-20-a70dbf54/normalized_reviews.json",
+    "phase1_metadata_path": "../phase-1/output/phase1-2026-07-20-a70dbf54/run_metadata.json",
+    "phase1_run_id": "phase1-2026-07-20-a70dbf54",
+    "phase1_status": "completed",
+    "lookback_weeks": 8,
+    "minimum_review_word_count": 7,
+    "normalized_review_language": "en",
+    "emoji_policy": "strip emojis from retained reviews"
+  },
+  "input_paths": {
+    "normalized_reviews": "../phase-1/output/phase1-2026-07-20-a70dbf54/normalized_reviews.json",
+    "phase1_metadata": "../phase-1/output/phase1-2026-07-20-a70dbf54/run_metadata.json"
+  },
+  "reporting_window": {
+    "start_date": "2026-05-25",
+    "end_date": "2026-07-20",
+    "lookback_weeks": 8
+  },
+  "source_mix": {
+    "app_store": 102,
+    "play_store": 547
+  },
+  "review_counts": {
+    "normalized_reviews": 649,
+    "prepared_evidence_reviews": 649,
+    "working_set_reviews": 649,
+    "working_set_reviews_excluded": 0,
+    "discovery_evidence_reviews": 138,
+    "discovery_batches": 6,
+    "merged_candidate_themes": 21,
+    "final_themes": 5,
+    "quote_candidates": 15
+  },
+  "coverage_notes": [
+    "app_store: App Store page 1 returned no review entries; continuing pagination.",
+    "app_store: App Store page 2 returned no review entries; continuing pagination.",
+    "app_store: App Store page 3 returned no review entries; continuing pagination.",
+    "app_store: App Store page 4 returned no review entries; continuing pagination.",
+    "app_store: App Store page 5 returned no review entries; continuing pagination.",
+    "app_store: App Store page 6 returned no review entries; continuing pagination."
+  ],
+  "llm_provider": {
+    "name": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "dry_run": false
+  },
+  "groq_limits": {
+    "provider_requests_per_minute": 30,
+    "provider_requests_per_day": 1000,
+    "provider_tokens_per_minute": 12000,
+    "provider_tokens_per_day": 100000,
+    "soft_requests_per_minute": 4,
+    "soft_tokens_per_minute": 10000
+  },
+  "phase2_limits": {
+    "max_working_reviews": 1000,
+    "max_discovery_calls_target": 8,
+    "max_reviews_per_batch": 40,
+    "max_words_per_batch": 1800
+  },
+  "groq_call_budget": {
+    "discovery_calls": 6,
+    "consolidation_calls": 1,
+    "final_note_calls": 1,
+    "total_calls": 8,
+    "estimated_total_tokens": 30835
+  },
+  "run_finished_at": "2026-07-20T09:00:59.141645+00:00"
+}

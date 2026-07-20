@@ -1,0 +1,94 @@
+{
+  "opening_summary": "Groww users are experiencing difficulties with the app's interface, high brokerage charges, and poor customer support.",
+  "top_themes": [
+    {
+      "theme_name": "Poor User Experience and Technical Issues",
+      "summary": "Users are experiencing difficulties with the app's interface, functionality, and technical issues.",
+      "bullet_points": [
+        "Users face difficulties with login and withdrawal",
+        "App glitches and errors are common",
+        "High brokerage charges are a concern",
+        "Users experience difficulties with trading",
+        "Technical issues lead to frustration"
+      ],
+      "linked_final_theme_id": "theme_1"
+    },
+    {
+      "theme_name": "High Brokerage Charges and Hidden Fees",
+      "summary": "Users are unhappy about the high brokerage charges and hidden fees.",
+      "bullet_points": [
+        "High brokerage charges affect trading experience",
+        "Hidden fees cause financial losses",
+        "Users demand transparent fee structures",
+        "Brokerage charges are higher than expected",
+        "Fees impact user satisfaction"
+      ],
+      "linked_final_theme_id": "theme_2"
+    },
+    {
+      "theme_name": "Poor Customer Support",
+      "summary": "Users are experiencing difficulties in getting help from customer support.",
+      "bullet_points": [
+        "Users face difficulties in reaching support agents",
+        "Support agents are unhelpful",
+        "Users experience long wait times",
+        "Support is not available when needed",
+        "Users are frustrated with support quality"
+      ],
+      "linked_final_theme_id": "theme_3"
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "they charge very high brokerage on dilivery shares nd very high other charges dp or intra day",
+      "review_id_hash": "66ce2207a7f950bf25d7736892531af5ddba60d054c6fb1f399f46fa9df6f9dc",
+      "theme_name": "Poor User Experience and Technical Issues"
+    },
+    {
+      "quote": "very high brokerage and stop loss triling is not available chart par hi stop loss lagane ka system do please",
+      "review_id_hash": "508909b37b9e4c16e4f7855dd81d6c6f5c9fea71d186a2d44c8351729901cede",
+      "theme_name": "High Brokerage Charges and Hidden Fees"
+    },
+    {
+      "quote": "no proper support from Groww, nowadays AI taking calls but not receiving proper solutions from AI worst customer service",
+      "review_id_hash": "baaa16de816f65c40369d4a409209b6a3b1976a0cb8237fa87d276f7b2844f7f",
+      "theme_name": "Poor Customer Support"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve App Interface and Functionality",
+      "bullet_points": [
+        "Conduct user experience research",
+        "Gather feedback from users",
+        "Prioritize bug fixes and updates",
+        "Enhance login and withdrawal processes",
+        "Optimize trading functionality"
+      ],
+      "linked_theme": "Poor User Experience and Technical Issues"
+    },
+    {
+      "action": "Review and Revise Brokerage Charges",
+      "bullet_points": [
+        "Analyze competitor brokerage charges",
+        "Assess user feedback on fees",
+        "Consider transparent fee structures",
+        "Evaluate impact on user satisfaction",
+        "Adjust fees to improve user experience"
+      ],
+      "linked_theme": "High Brokerage Charges and Hidden Fees"
+    },
+    {
+      "action": "Enhance Customer Support",
+      "bullet_points": [
+        "Hire more support agents",
+        "Implement AI-powered support tools",
+        "Provide training for support agents",
+        "Establish clear support protocols",
+        "Monitor and evaluate support quality"
+      ],
+      "linked_theme": "Poor Customer Support"
+    }
+  ],
+  "coverage_note": "App Store pages 1-6 returned no review entries; continuing pagination."
+}

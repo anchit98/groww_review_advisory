@@ -1,0 +1,113 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "theme_1",
+      "final_theme_name": "Poor User Experience and Technical Issues",
+      "sentiment": "negative",
+      "summary": "Users are experiencing difficulties with the app's interface, functionality, and technical issues such as glitches, errors, and difficulties with login and withdrawal.",
+      "supporting_candidate_theme_ids": [
+        "theme_1",
+        "theme_6",
+        "theme-1",
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "4cda77fe4561c76c7b16825c07f7dffb5705eac7dafeda626450813eeec5591c",
+        "dd197c4d7014f16b2ec9fecbda655f29c085dbfe756c65515df2956f9aab80b9",
+        "82d8d15d8e08e1966ecea663fdbeed7876eb3a71da73ad0c632a82ced7d71d3d",
+        "54ca285761e75a5dc0c0b7517654e902d1576ce2166304d92d8e5a1187fcf355",
+        "ecbd6d7c0f97b5e2102312e56549dff3e3dc6adf760f52bac420f210c0aecb59",
+        "66ce2207a7f950bf25d7736892531af5ddba60d054c6fb1f399f46fa9df6f9dc",
+        "0f06cccea50e87117d0b4e121833a9fdaea1821155aa53aeaa0c787257c558c8",
+        "e94187aec2d3b7764b16d40b4123f78f3e5fb2ee7555a200d9ab6f8d411c99fd",
+        "9ca4e4d1205ee1d547689459973c85026e2c87583a3c87087d5b65c617a2f22d",
+        "c4134e6e2f59142c9a4af12eb3c2e68ac42e0173939f5fd248823b5b1b634482",
+        "2c04ff94fc4a871d4333ee3730546741d43f8b83a4c606607fe9b1565c4f8568",
+        "6430d9935db8fea3504513487ee9628db09e863b8e51b6b4ec8140211b94f083",
+        "dda310fa803f08d1c0ec0b1fddd65b58a025d5607a9a60032d33c14efb6edd0f"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the overall user experience and can lead to frustration and dissatisfaction among users.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "theme_2",
+      "final_theme_name": "High Brokerage Charges and Hidden Fees",
+      "sentiment": "negative",
+      "summary": "Users are unhappy about the high brokerage charges and hidden fees, which is affecting their trading experience and causing financial losses.",
+      "supporting_candidate_theme_ids": [
+        "theme_2",
+        "theme_5",
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "ee517a008b3a890e091fe5aac92433c87b99849867852b6f478e32da0af16cc6",
+        "78860913824c613b193130cd995f0db1301852b1cf8625527445759104fcdba4",
+        "508909b37b9e4c16e4f7855dd81d6c6f5c9fea71d186a2d44c8351729901cede",
+        "01db4c3ccd2899a303f0bda5af1d0d3299c5386b4263e28344b82998e9cfa227",
+        "a52111fd3036365e846c35ae30ea6b7f3b87c7d2f16b2d131da031232016839c"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the users' financial well-being and can lead to mistrust and dissatisfaction among users.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "theme_3",
+      "final_theme_name": "Poor Customer Support",
+      "sentiment": "negative",
+      "summary": "Users are experiencing difficulties in getting help from customer support, leading to frustration and dissatisfaction.",
+      "supporting_candidate_theme_ids": [
+        "theme_3"
+      ],
+      "supporting_review_ids": [
+        "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+        "451da61ae5bf78b5a60d35fa9bc2c7928533974d3177a7390801fb839399cbda",
+        "6dbf81413f65a7df2c2887561b76a8bfff5dc17537675320d230f90f6ff589bd",
+        "74e949b62b75ad65cfc4d4876e25dc41d56654e09e161dd0313fc3b752ce5348",
+        "baaa16de816f65c40369d4a409209b6a3b1976a0cb8237fa87d276f7b2844f7f",
+        "e07d2eb2c64e4c5114fa55ee06cc88fef92dad0eb9bac22be3a7d2cb7e83b423"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the users' overall experience and can lead to frustration and dissatisfaction among users.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "theme_4",
+      "final_theme_name": "Ease of Use and User-Friendly Interface",
+      "sentiment": "positive",
+      "summary": "Users praise the app's interface for being easy to use and navigate, making it perfect for beginners.",
+      "supporting_candidate_theme_ids": [
+        "theme_1"
+      ],
+      "supporting_review_ids": [
+        "4381f2f0c9afd0aa695fa2a477c0edf9175d12f3062a5505c043f5af7fef6f75",
+        "72ddf478fea822652df2040a72b0ed3c90902960a2d242bcade0c505d1a9834b",
+        "97e73462bdbcb9b4f54d945fa6651bfcc9d926e27ccad6e669133a0054a99324",
+        "dfa16ac02c17d67d4f6bc60e848e0388a3bd2778c4dc91e106907a4d5c9ad112",
+        "300ac6a809d5c9c41d6491732639797de56c3627a4b700922cbaf02a228933c5",
+        "86bb69c49aae7cd8df9a06df2930da68e49fcd3c982898c0a054bd748c63b3dc",
+        "b7af23d92a5acdd1fdd8a50cae3e988c3a88f95aaa9505e3fc744279634289a3",
+        "c2e22f3a63cffd0eeed674929e296a662b3c852aa2bd25db428b5e53330662af"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the users' overall experience and can lead to satisfaction and loyalty among users.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "theme_5",
+      "final_theme_name": "Trading and Investment Features",
+      "sentiment": "positive",
+      "summary": "Users appreciate the app's features for trading and investment, including its simplicity and reliability.",
+      "supporting_candidate_theme_ids": [
+        "theme_2"
+      ],
+      "supporting_review_ids": [
+        "81ddbd26158127c0fb17ec2ecd12e93b014ac56b56e337dba134b438520c7152",
+        "daa315927f04319977c00568612402f6934c3e5ac1d83393863dc3ced12de159",
+        "fe94839163fb4072ba48dbf8d17b8f569c40014a973f0bba7a62257894b46cf1",
+        "03b5206329fee84f4604646b14eb7747f7f5a6d8f083c1e9b2a684a4d55de91d",
+        "1248bee990549a3b8bc08738c0f10e6ef34f9bc21bc8cc5e673e0b1d5534bef7",
+        "2e478e0571ef0935e1b87fa02883c5ec5978675bbc588bf59084230f213ed232",
+        "4d72eaf9eb1a96fe0f8055e92cb31811844696acc3dde59c06a0cc69523c1e38"
+      ],
+      "why_this_theme_matters": "This theme matters because it affects the users' overall experience and can lead to satisfaction and loyalty among users.",
+      "priority_rank": 5
+    }
+  ]
+}

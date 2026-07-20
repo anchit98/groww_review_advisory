@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "theme_1-quote-1",
+    "review_id_hash": "66ce2207a7f950bf25d7736892531af5ddba60d054c6fb1f399f46fa9df6f9dc",
+    "theme_id": "theme_1",
+    "theme_name": "Poor User Experience and Technical Issues",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-07-16",
+    "quote_text": "they charge very high brokerage on dilivery shares nd very high other charges dp or intra day"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-2",
+    "review_id_hash": "6430d9935db8fea3504513487ee9628db09e863b8e51b6b4ec8140211b94f083",
+    "theme_id": "theme_1",
+    "theme_name": "Poor User Experience and Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-17",
+    "quote_text": "groww chitting in auto sqare position after 3.20 every time cut in different rate and loss of customer."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-3",
+    "review_id_hash": "dd197c4d7014f16b2ec9fecbda655f29c085dbfe756c65515df2956f9aab80b9",
+    "theme_id": "theme_1",
+    "theme_name": "Poor User Experience and Technical Issues",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-06-08",
+    "quote_text": "Grow mobile app became worst as compared to other apps, I invest in grow but for trading it is not suitable."
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-4",
+    "review_id_hash": "ecbd6d7c0f97b5e2102312e56549dff3e3dc6adf760f52bac420f210c0aecb59",
+    "theme_id": "theme_1",
+    "theme_name": "Poor User Experience and Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-15",
+    "quote_text": "this aap has lot of charges they charged me 120rs for only one trade"
+  },
+  {
+    "quote_candidate_id": "theme_1-quote-5",
+    "review_id_hash": "54ca285761e75a5dc0c0b7517654e902d1576ce2166304d92d8e5a1187fcf355",
+    "theme_id": "theme_1",
+    "theme_name": "Poor User Experience and Technical Issues",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-15",
+    "quote_text": "Fraud hai,per lot rs50 brokerage charge buy rs50 sell rs50 total rs100"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-1",
+    "review_id_hash": "508909b37b9e4c16e4f7855dd81d6c6f5c9fea71d186a2d44c8351729901cede",
+    "theme_id": "theme_2",
+    "theme_name": "High Brokerage Charges and Hidden Fees",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-07-17",
+    "quote_text": "very high brokerage and stop loss triling is not available chart par hi stop loss lagane ka system do please"
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-2",
+    "review_id_hash": "ee517a008b3a890e091fe5aac92433c87b99849867852b6f478e32da0af16cc6",
+    "theme_id": "theme_2",
+    "theme_name": "High Brokerage Charges and Hidden Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-06-10",
+    "quote_text": "If you are a small invester they will simple cut the amount indirectly without informing."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-3",
+    "review_id_hash": "78860913824c613b193130cd995f0db1301852b1cf8625527445759104fcdba4",
+    "theme_id": "theme_2",
+    "theme_name": "High Brokerage Charges and Hidden Fees",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-06-14",
+    "quote_text": "Fix this issue and only show consistent expense ratios for the funds."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-4",
+    "review_id_hash": "a52111fd3036365e846c35ae30ea6b7f3b87c7d2f16b2d131da031232016839c",
+    "theme_id": "theme_2",
+    "theme_name": "High Brokerage Charges and Hidden Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-18",
+    "quote_text": "please don't take pledge amount."
+  },
+  {
+    "quote_candidate_id": "theme_2-quote-5",
+    "review_id_hash": "01db4c3ccd2899a303f0bda5af1d0d3299c5386b4263e28344b82998e9cfa227",
+    "theme_id": "theme_2",
+    "theme_name": "High Brokerage Charges and Hidden Fees",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-18",
+    "quote_text": "customer car se bat nahi hoti or hidden charges bhi boht zyada h brokerage charges to or bhi zyada h 100rs se bhi zyada charges leta h dusre stock m entry se"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-1",
+    "review_id_hash": "baaa16de816f65c40369d4a409209b6a3b1976a0cb8237fa87d276f7b2844f7f",
+    "theme_id": "theme_3",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-16",
+    "quote_text": "no proper support from Groww, nowadays AI taking calls but not receiving proper solutions from AI worst customer service"
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-2",
+    "review_id_hash": "74e949b62b75ad65cfc4d4876e25dc41d56654e09e161dd0313fc3b752ce5348",
+    "theme_id": "theme_3",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-18",
+    "quote_text": "If there is an option of giving zero stars for it I would have given it."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-3",
+    "review_id_hash": "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+    "theme_id": "theme_3",
+    "theme_name": "Poor Customer Support",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-13",
+    "quote_text": "You can stay on the line with their customer care number for as long as you like; no representative will speak to you."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-4",
+    "review_id_hash": "451da61ae5bf78b5a60d35fa9bc2c7928533974d3177a7390801fb839399cbda",
+    "theme_id": "theme_3",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-18",
+    "quote_text": "worst support ever, just like airtel you never get a chance to speak to a customer support agent literally worst support I can say."
+  },
+  {
+    "quote_candidate_id": "theme_3-quote-5",
+    "review_id_hash": "e07d2eb2c64e4c5114fa55ee06cc88fef92dad0eb9bac22be3a7d2cb7e83b423",
+    "theme_id": "theme_3",
+    "theme_name": "Poor Customer Support",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-16",
+    "quote_text": "There is no customer support really very worst"
+  }
+]
