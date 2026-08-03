@@ -1,0 +1,94 @@
+{
+  "opening_summary": "Groww users are experiencing technical issues, poor customer support, and high brokerage charges, while also appreciating the app's user-friendly interface and excellent performance.",
+  "top_themes": [
+    {
+      "theme_name": "Technical Issues and Poor User Experience",
+      "summary": "Users are experiencing technical issues with the app, including glitches and slow performance.",
+      "bullet_points": [
+        "Users face glitches and slow performance",
+        "Technical issues affect trading and account management",
+        "Poor user experience leads to frustration",
+        "Issues with navigation and loading",
+        "Errors with account access"
+      ],
+      "linked_final_theme_id": "theme-1"
+    },
+    {
+      "theme_name": "Poor Customer Support and High Brokerage Charges",
+      "summary": "Users are experiencing poor customer support and high brokerage charges.",
+      "bullet_points": [
+        "Users face unresponsive customer support",
+        "High brokerage charges affect trading experience",
+        "Poor support leads to frustration",
+        "Hidden charges are a concern",
+        "Users demand better support"
+      ],
+      "linked_final_theme_id": "theme-2"
+    },
+    {
+      "theme_name": "User-friendly Interface and Excellent Performance",
+      "summary": "Users appreciate the app's user-friendly interface and excellent performance.",
+      "bullet_points": [
+        "Users find the app easy to navigate",
+        "App performance is smooth and fast",
+        "Simple interface is a major advantage",
+        "Users appreciate the app's usability",
+        "Excellent performance enhances user experience"
+      ],
+      "linked_final_theme_id": "theme-3"
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "Why is your app not optimized to work on an iPad please work on it",
+      "review_id_hash": "a77521b8ac3f30b6b8ebd86950c22cbbca627a8888de72cbf203a13cbb94a51a",
+      "theme_name": "Technical Issues and Poor User Experience"
+    },
+    {
+      "quote": "Dear Groww Team, I would like to share my feedback regarding your intraday brokerage charges.",
+      "review_id_hash": "a991b968750aa98d87bbfce5e2b6381eb488764b59428fb7b6af51a9c2e71a63",
+      "theme_name": "Poor Customer Support and High Brokerage Charges"
+    },
+    {
+      "quote": "You can use and navigate the app even if you have Lil knowledge about Sips and stock market.",
+      "review_id_hash": "dfe412cca6d88f136264159b7dd99288405a727de96a229e9c895954582dfef6",
+      "theme_name": "User-friendly Interface and Excellent Performance"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve App Performance and User Experience",
+      "bullet_points": [
+        "Optimize app for iPad and other devices",
+        "Fix technical issues and glitches",
+        "Enhance customer support and responsiveness",
+        "Review and adjust brokerage charges",
+        "Conduct user testing and feedback sessions"
+      ],
+      "linked_theme": "Technical Issues and Poor User Experience"
+    },
+    {
+      "action": "Enhance Customer Support and Reduce Brokerage Charges",
+      "bullet_points": [
+        "Increase customer support staff and training",
+        "Implement a more responsive support system",
+        "Review and adjust brokerage charges",
+        "Provide clear and transparent charge information",
+        "Offer competitive pricing and promotions"
+      ],
+      "linked_theme": "Poor Customer Support and High Brokerage Charges"
+    },
+    {
+      "action": "Build on User-friendly Interface and Excellent Performance",
+      "bullet_points": [
+        "Continuously monitor and improve app performance",
+        "Gather user feedback and incorporate suggestions",
+        "Expand app features and functionality",
+        "Enhance user education and resources",
+        "Maintain a simple and intuitive interface"
+      ],
+      "linked_theme": "User-friendly Interface and Excellent Performance"
+    }
+  ],
+  "coverage_note": "App Store pages 2, 3, 4, 6, and 7 returned no review entries; pagination continued."
+}

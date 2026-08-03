@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "theme-1-quote-1",
+    "review_id_hash": "a77521b8ac3f30b6b8ebd86950c22cbbca627a8888de72cbf203a13cbb94a51a",
+    "theme_id": "theme-1",
+    "theme_name": "Technical Issues and Poor User Experience",
+    "source": "app_store",
+    "rating": 2,
+    "review_date": "2026-07-23",
+    "quote_text": "Why is you\u2019re app not optimized to work on an iPad please work on it"
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-2",
+    "review_id_hash": "98b2057c96edbfd06d51b4bec715a28c0ee742544f4d4628e3518b336f873af3",
+    "theme_id": "theme-1",
+    "theme_name": "Technical Issues and Poor User Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-31",
+    "quote_text": "app open krte h to password dalte be apne aap back ho raha h fix kro es ko"
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-3",
+    "review_id_hash": "c2a75b7d6d93755fe2ed56b9d0ca47468d133e74a431f258acdde17e04e37b3d",
+    "theme_id": "theme-1",
+    "theme_name": "Technical Issues and Poor User Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-31",
+    "quote_text": "I am unable to open my profile section after updating the app, worst version of the application"
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-4",
+    "review_id_hash": "8f2e2d4221b458d4f241e1349c2beee60cde5e35ebae786e43212080f237de67",
+    "theme_id": "theme-1",
+    "theme_name": "Technical Issues and Poor User Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-31",
+    "quote_text": "worst app tbh it freezes every single time whenever I open it and even after reinstalling"
+  },
+  {
+    "quote_candidate_id": "theme-1-quote-5",
+    "review_id_hash": "b3fd77067c74abea209fe397cbc022e8d35d09f16b07ad59a4e1b7b3b47563fc",
+    "theme_id": "theme-1",
+    "theme_name": "Technical Issues and Poor User Experience",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-31",
+    "quote_text": "very bad experience in withdrawal money and its not credited on time."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-1",
+    "review_id_hash": "a991b968750aa98d87bbfce5e2b6381eb488764b59428fb7b6af51a9c2e71a63",
+    "theme_id": "theme-2",
+    "theme_name": "Poor Customer Support and High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-01",
+    "quote_text": "Dear Groww Team, I would like to share my feedback regarding your intraday brokerage charges."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-2",
+    "review_id_hash": "d0e35adeca0ba591ac579fcc2b46c873d1fdf0904dd8df971bbd9756eb49f23c",
+    "theme_id": "theme-2",
+    "theme_name": "Poor Customer Support and High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-27",
+    "quote_text": "Taking too much money as brokerage while trading in mtf, have lot off hidden charges..."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-3",
+    "review_id_hash": "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+    "theme_id": "theme-2",
+    "theme_name": "Poor Customer Support and High Brokerage Charges",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-13",
+    "quote_text": "You can stay on the line with their customer care number for as long as you like; no representative will speak to you."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-4",
+    "review_id_hash": "28c218570d9e78724e49fac4cc05406b77fec7ebdba35b957672b717eedc40e4",
+    "theme_id": "theme-2",
+    "theme_name": "Poor Customer Support and High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-01",
+    "quote_text": "this app has the worst customer service."
+  },
+  {
+    "quote_candidate_id": "theme-2-quote-5",
+    "review_id_hash": "b8784cb35c548124f63a98b52f093b65fe40a591393b0664973a15b937e2e842",
+    "theme_id": "theme-2",
+    "theme_name": "Poor Customer Support and High Brokerage Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-07-30",
+    "quote_text": "so much charges for small trading account"
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-1",
+    "review_id_hash": "dfe412cca6d88f136264159b7dd99288405a727de96a229e9c895954582dfef6",
+    "theme_id": "theme-3",
+    "theme_name": "User-friendly Interface and Excellent Performance",
+    "source": "play_store",
+    "rating": 5,
+    "review_date": "2026-07-31",
+    "quote_text": "You can use and navigate the app even if you have Lil knowledge about Sips and stock market."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-2",
+    "review_id_hash": "45486e5801930b818dad3cabd1161b7058fe441a54026630c4d0a75974189314",
+    "theme_id": "theme-3",
+    "theme_name": "User-friendly Interface and Excellent Performance",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-08-01",
+    "quote_text": "When I am doing optional trading, this Groww is very fast and easy to operate with this very simple system."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-3",
+    "review_id_hash": "fddf97e2636b0407be21d55ebda21ce2bbee1a09000c5a4cb4b6fca4e5ea1682",
+    "theme_id": "theme-3",
+    "theme_name": "User-friendly Interface and Excellent Performance",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-08-01",
+    "quote_text": "One of the most user friendly application that I\u2019m using ever since other demats"
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-4",
+    "review_id_hash": "a988c529bc20f55c454a5eafcdd211a9af01b7e683410c43a4d2ceacc10cf8ee",
+    "theme_id": "theme-3",
+    "theme_name": "User-friendly Interface and Excellent Performance",
+    "source": "app_store",
+    "rating": 5,
+    "review_date": "2026-08-01",
+    "quote_text": "Neatest UI I\u2019ve seen in an investing app."
+  },
+  {
+    "quote_candidate_id": "theme-3-quote-5",
+    "review_id_hash": "ec500ece33d2bcc4b49f7406bf455bc4c49f10045f24d4a049188a70934df4b6",
+    "theme_id": "theme-3",
+    "theme_name": "User-friendly Interface and Excellent Performance",
+    "source": "play_store",
+    "rating": 5,
+    "review_date": "2026-07-31",
+    "quote_text": "Aacha application hai aur se easy to use hai ..."
+  }
+]

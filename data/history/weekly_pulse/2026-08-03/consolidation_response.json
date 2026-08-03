@@ -1,0 +1,131 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "theme-1",
+      "final_theme_name": "Technical Issues and Poor User Experience",
+      "sentiment": "negative",
+      "summary": "Users are experiencing technical issues with the app, including glitches, slow performance, and errors with trading and account management. Additionally, users are experiencing difficulties with the app's interface, including issues with navigation, loading, and accessing certain features.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme_1",
+        "theme-3",
+        "theme_4"
+      ],
+      "supporting_review_ids": [
+        "1fd47f4df1d5b69931ffe778983f77408390747e950a33b16e515ee12c5abddc",
+        "563386844f9189b2a673c1707612b748951f02ecef531580f3a0e9630e384980",
+        "70d594db375426e5c57e3d35731953ce1d55a1911ca46761a03c235ef7ae0fbc",
+        "88cc6804647d8ccca518b17ca83d7a524317c733245bff5926d3a1446109363b",
+        "8f2e2d4221b458d4f241e1349c2beee60cde5e35ebae786e43212080f237de67",
+        "9381d3605fd7ab9091e54be10e51d388796115f9b12431f88943d2433960be30",
+        "96cf43429f569076a1f9ed22b67081f6f804d1e5908f344af1593011519b8795",
+        "98b2057c96edbfd06d51b4bec715a28c0ee742544f4d4628e3518b336f873af3",
+        "ad0bcf77d1baa2ec951b5c5a068f2ddc62afb44fe35d2409506c6a5eed4cda01",
+        "b7e2d6cfdedcf050ba3347747659ef23ae9abdadaf5e30a4dff482df8ab5078d",
+        "c2a75b7d6d93755fe2ed56b9d0ca47468d133e74a431f258acdde17e04e37b3d",
+        "eb3c792a5336558fd41b1bfdadbf194e5c3976cee7cf7e5eb6502fde3217a105",
+        "f5bcebb0fdfa1239dced4a6bec5fcf7707eb5be342180175a89214e495d64c5b",
+        "ea0ed864e76f38a6fb9a44815995f6ff4b04e9e38da7b85c899f80aa0d7aeeec",
+        "f49bbe41f48c624c91fb6169e1796ab841c77b06633998d54444ce46b0780fef",
+        "564c06521bd431ff1fff0431d5bd9875873f9e9cb55d1dd876afb207c9a9576c",
+        "a77521b8ac3f30b6b8ebd86950c22cbbca627a8888de72cbf203a13cbb94a51a",
+        "ca1cdd9243a475bdc4b0c0b32ad2e33b30e23b3c9638888bd9ac870ab9cf897a",
+        "b3fd77067c74abea209fe397cbc022e8d35d09f16b07ad59a4e1b7b3b47563fc"
+      ],
+      "why_this_theme_matters": "This theme matters because technical issues and poor user experience can lead to frustration and financial losses for users, ultimately affecting the app's reputation and user retention.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "theme-2",
+      "final_theme_name": "Poor Customer Support and High Brokerage Charges",
+      "sentiment": "negative",
+      "summary": "Users are experiencing poor customer support, including unresponsive support teams and lack of assistance with account issues. Additionally, users are complaining about high brokerage charges, which are affecting their trading experience.",
+      "supporting_candidate_theme_ids": [
+        "theme-2",
+        "theme_2",
+        "theme-4",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "28c218570d9e78724e49fac4cc05406b77fec7ebdba35b957672b717eedc40e4",
+        "396d5f0cba07d2980aba09fb67e6dfc91adc576181dd3cd4162d7a13edd8851b",
+        "46e7b1c1befc8f0282e3afc3430322201e3fb816cf2d36c59e6fee638638d099",
+        "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+        "5e9d9d875124055a9f1cd41a6f43a561a700a3ef7ea9acb200167c25b29719e6",
+        "67dec611204d3ed5ec2cba7d8ebadac9b85489a94bbcf56d26a663f5711fae62",
+        "99364667b2fb3e85c4e50ea368ae8e34078694a4f773a3af37934da83d7eb2e5",
+        "a991b968750aa98d87bbfce5e2b6381eb488764b59428fb7b6af51a9c2e71a63",
+        "d3b2191877d273783d95c660f08b46490317b4b36f077f1848c59655650f8412",
+        "e3c42ccc33569d678236d7270f03ecb99fbc60e31fbb4cef631a28712a50383d",
+        "06393dcecde321b44f0d40c37bd83a33c74b84a9c136355ddabdae10410408c5",
+        "b8784cb35c548124f63a98b52f093b65fe40a591393b0664973a15b937e2e842",
+        "d0e35adeca0ba591ac579fcc2b46c873d1fdf0904dd8df971bbd9756eb49f23c",
+        "38bd846f279f55bceb5bce1cf652bccf81aa49a889779d9cd098e20c189840a6",
+        "b9b2c28d65b91c462cb373664f5ce9ef2cbc75f941d7a7cde4726406555ced12"
+      ],
+      "why_this_theme_matters": "This theme matters because poor customer support and high brokerage charges can lead to frustration and mistrust among users, ultimately affecting the app's reputation and user retention.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "theme-3",
+      "final_theme_name": "User-friendly Interface and Excellent Performance",
+      "sentiment": "positive",
+      "summary": "Users praise the app's simplicity and ease of use, with a clean interface and smooth experience. Additionally, users appreciate the app's performance and speed.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-2",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "07ef88f5aba823c2ef4c068c38175f91ff51f4c7613e346ee85e7cebced6b119",
+        "1f3f06ff880cee0a5dd7359a1d847680b2e15e3ba2b2bc4c91f82db9b6030ef4",
+        "a988c529bc20f55c454a5eafcdd211a9af01b7e683410c43a4d2ceacc10cf8ee",
+        "fddf97e2636b0407be21d55ebda21ce2bbee1a09000c5a4cb4b6fca4e5ea1682",
+        "45486e5801930b818dad3cabd1161b7058fe441a54026630c4d0a75974189314",
+        "5feba85fa2a04fa351f7458606425a459a3231ecfc5ec8d8b38c487d4af3fad8",
+        "8a751787bac22cdfdd12b73a78b171993f0e4b4024cb3d632736fd1c5d36b5d6",
+        "dfe412cca6d88f136264159b7dd99288405a727de96a229e9c895954582dfef6",
+        "a8c220ca1d913ed2eb4dd2193faab1cd884b905486f23c7c8cd8176701d5dbab",
+        "ec500ece33d2bcc4b49f7406bf455bc4c49f10045f24d4a049188a70934df4b6"
+      ],
+      "why_this_theme_matters": "This theme matters because a user-friendly interface and excellent performance can lead to a positive user experience, ultimately increasing user satisfaction and retention.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "theme-4",
+      "final_theme_name": "Investment and Trading Features",
+      "sentiment": "positive",
+      "summary": "Users appreciate the app's features for investment and trading, finding it helpful and easy to use.",
+      "supporting_candidate_theme_ids": [
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "6a76601c1b7129dd8928b2969fefa40aa7b0581d1bb7f574b4923e3ab259a732",
+        "5472e0cc6626f5cd13a505998033f825499a5baa80e6e2f74b422923e277433d",
+        "c9ef61709fea174717b9ae0132eebd84de5a3c4ede60e893df64b2a2dbe808b1"
+      ],
+      "why_this_theme_matters": "This theme matters because investment and trading features are a key aspect of the app, and users' satisfaction with these features can impact their overall experience and loyalty.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "theme-5",
+      "final_theme_name": "Feature Requests and Suggestions",
+      "sentiment": "mixed",
+      "summary": "Users are suggesting improvements to the app's user interface, including adding a home button, tabbed layout, and watchlist features. Additionally, users are requesting new features, such as calendar spread, smart money concept, and persistent reorder or sorting options.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "75bb2707c6230583fc4a3bf155d38abec26be141e8de42e8dcca814cbb54f4d6",
+        "0f2c9e895264dd07f2d4a89f62c7fb5a458f674ea42c99900c0431638b941ffa",
+        "b6eb79bded54071fc79dbe15ab953a0dd0f56825ac4af4f91f51befdc94073cd",
+        "74111e29627228f73e93309e6f59cbab91a29f1d280d760981beef142cf38ce3",
+        "e29bfcbefdcf2311593fde293566836b70b8a435d670b827986bc995f615ea1a",
+        "2ba89fb46d28383bf9026337d4ac8c5c1ebb47afe199adba2d453323152c50a7"
+      ],
+      "why_this_theme_matters": "This theme matters because users' suggestions and requests can help improve the app's overall user experience and satisfaction, ultimately increasing user retention and loyalty.",
+      "priority_rank": 5
+    }
+  ]
+}
