@@ -1,0 +1,152 @@
+[
+  {
+    "quote_candidate_id": "FT-1-quote-1",
+    "review_id_hash": "13f23e74c7ef64ad56def0bd0a309e42cfbdf2723d53dd95d4e013c1a28f3674",
+    "theme_id": "FT-1",
+    "theme_name": "Technical Issues and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-14",
+    "quote_text": "selfie verification while login is not possible when u logging again and again it should be removed"
+  },
+  {
+    "quote_candidate_id": "FT-1-quote-2",
+    "review_id_hash": "09d3c88a5868cdba5ba15a959db2adc3f86637684d0f307f33569015e610f6d3",
+    "theme_id": "FT-1",
+    "theme_name": "Technical Issues and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-14",
+    "quote_text": "Adhar card is not taking, while putting adhar number it's showing try again."
+  },
+  {
+    "quote_candidate_id": "FT-1-quote-3",
+    "review_id_hash": "563386844f9189b2a673c1707612b748951f02ecef531580f3a0e9630e384980",
+    "theme_id": "FT-1",
+    "theme_name": "Technical Issues and App Performance",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-20",
+    "quote_text": "Worst trading app in the market and their customer support is horrible."
+  },
+  {
+    "quote_candidate_id": "FT-1-quote-4",
+    "review_id_hash": "96cf43429f569076a1f9ed22b67081f6f804d1e5908f344af1593011519b8795",
+    "theme_id": "FT-1",
+    "theme_name": "Technical Issues and App Performance",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-22",
+    "quote_text": "Wrong chart is showing from a long time"
+  },
+  {
+    "quote_candidate_id": "FT-1-quote-5",
+    "review_id_hash": "b4e9d54023414ee47023cc109dfc2b584a3f3bff33dcfcdb92cf4acd5ec89f9b",
+    "theme_id": "FT-1",
+    "theme_name": "Technical Issues and App Performance",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-13",
+    "quote_text": "I'm unable to pay/approve UPI mandate."
+  },
+  {
+    "quote_candidate_id": "FT-2-quote-1",
+    "review_id_hash": "d633d8ee16408375bf9146857b6778f14e84f77b2ad5e6903eb0cd233b3ec619",
+    "theme_id": "FT-2",
+    "theme_name": "Customer Support and Account Management",
+    "source": "play_store",
+    "rating": 2,
+    "review_date": "2026-08-13",
+    "quote_text": "Customer care is not easy to reach nor is able to solve the issues properly."
+  },
+  {
+    "quote_candidate_id": "FT-2-quote-2",
+    "review_id_hash": "3b4ae2618f4a37339acef21de1948a2798a983a6d87c717d799e430e396f517a",
+    "theme_id": "FT-2",
+    "theme_name": "Customer Support and Account Management",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-11",
+    "quote_text": "worst assistance my problem not at all resolved my account details are not showing raised query but still prolonging to day after day"
+  },
+  {
+    "quote_candidate_id": "FT-2-quote-3",
+    "review_id_hash": "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+    "theme_id": "FT-2",
+    "theme_name": "Customer Support and Account Management",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-13",
+    "quote_text": "You can stay on the line with their customer care number for as long as you like; no representative will speak to you."
+  },
+  {
+    "quote_candidate_id": "FT-2-quote-4",
+    "review_id_hash": "563386844f9189b2a673c1707612b748951f02ecef531580f3a0e9630e384980",
+    "theme_id": "FT-2",
+    "theme_name": "Customer Support and Account Management",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-20",
+    "quote_text": "Worst trading app in the market and their customer support is horrible."
+  },
+  {
+    "quote_candidate_id": "FT-2-quote-5",
+    "review_id_hash": "4fbb51cacc289f51363d9c757fcc9beb03ab429627e9086760ecef7e8ef6d5d3",
+    "theme_id": "FT-2",
+    "theme_name": "Customer Support and Account Management",
+    "source": "app_store",
+    "rating": 1,
+    "review_date": "2026-07-23",
+    "quote_text": "I have been using Groww for several years."
+  },
+  {
+    "quote_candidate_id": "FT-3-quote-1",
+    "review_id_hash": "7781d70f4685785a81ba14db3245d235e2d868bd635ed4174cb33657ebcaf9a9",
+    "theme_id": "FT-3",
+    "theme_name": "Fees and Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-15",
+    "quote_text": "if you want to lose your money you are most welcome in groww app."
+  },
+  {
+    "quote_candidate_id": "FT-3-quote-2",
+    "review_id_hash": "97438ec02ec3f77b10c668413689b21ffe230dbc07ff8f1c0d047f1aeabb963c",
+    "theme_id": "FT-3",
+    "theme_name": "Fees and Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-13",
+    "quote_text": "very bad experience and very high charges in every segment."
+  },
+  {
+    "quote_candidate_id": "FT-3-quote-3",
+    "review_id_hash": "4fd7204bcdb9c34f4195cf0564413a62a344737f828149953647b9858f052eaa",
+    "theme_id": "FT-3",
+    "theme_name": "Fees and Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-14",
+    "quote_text": "Brokrage high , worst application."
+  },
+  {
+    "quote_candidate_id": "FT-3-quote-4",
+    "review_id_hash": "2e9b8fb5454694d00a5a02d282c6b826d31313cc8927ebc3d0de6ba8976034d8",
+    "theme_id": "FT-3",
+    "theme_name": "Fees and Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-13",
+    "quote_text": "Highly misleading fees."
+  },
+  {
+    "quote_candidate_id": "FT-3-quote-5",
+    "review_id_hash": "c5ea601467e543f199a39190b81141ac4f3cc27ee2b7022e192d7ebe5bfe1b47",
+    "theme_id": "FT-3",
+    "theme_name": "Fees and Charges",
+    "source": "play_store",
+    "rating": 1,
+    "review_date": "2026-08-14",
+    "quote_text": "hello, I have been using this app for the last 1 year and everything has been going smoothly and well in intraday trading but, from July 2026 this app is taking too much brokerage I don't know why??"
+  }
+]

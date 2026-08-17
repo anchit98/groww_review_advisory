@@ -1,0 +1,94 @@
+{
+  "opening_summary": "Groww users are experiencing technical issues, poor customer support, and high fees.",
+  "top_themes": [
+    {
+      "theme_name": "Technical Issues and App Performance",
+      "summary": "Users are experiencing technical issues with the app, including glitches and slow performance.",
+      "bullet_points": [
+        "Users face glitches and slow performance",
+        "Login and verification issues are common",
+        "Technical issues lead to poor user experience",
+        "Frustration drives users away from the app",
+        "Fixing issues is crucial for user retention"
+      ],
+      "linked_final_theme_id": "FT-1"
+    },
+    {
+      "theme_name": "Customer Support and Account Management",
+      "summary": "Users are experiencing difficulties with customer support and account management.",
+      "bullet_points": [
+        "Users face unresponsive customer support",
+        "Account management issues are common",
+        "Poor support leads to negative reviews",
+        "Users struggle with account closures",
+        "Improving support is vital for user satisfaction"
+      ],
+      "linked_final_theme_id": "FT-2"
+    },
+    {
+      "theme_name": "Fees and Charges",
+      "summary": "Some users are concerned about the fees and charges associated with the app.",
+      "bullet_points": [
+        "Users are concerned about high brokerage charges",
+        "Fees are misleading and unexpected",
+        "High fees lead to negative reviews",
+        "Users expect transparent fee structures",
+        "Competitive pricing is essential for user retention"
+      ],
+      "linked_final_theme_id": "FT-3"
+    }
+  ],
+  "user_quotes": [
+    {
+      "quote": "selfie verification while login is not possible when u logging again and again it should be removed",
+      "review_id_hash": "13f23e74c7ef64ad56def0bd0a309e42cfbdf2723d53dd95d4e013c1a28f3674",
+      "theme_name": "Technical Issues and App Performance"
+    },
+    {
+      "quote": "Customer care is not easy to reach nor is able to solve the issues properly.",
+      "review_id_hash": "d633d8ee16408375bf9146857b6778f14e84f77b2ad5e6903eb0cd233b3ec619",
+      "theme_name": "Customer Support and Account Management"
+    },
+    {
+      "quote": "if you want to lose your money you are most welcome in groww app.",
+      "review_id_hash": "7781d70f4685785a81ba14db3245d235e2d868bd635ed4174cb33657ebcaf9a9",
+      "theme_name": "Fees and Charges"
+    }
+  ],
+  "action_ideas": [
+    {
+      "action": "Improve App Performance and Fix Technical Issues",
+      "bullet_points": [
+        "Conduct thorough app testing and debugging",
+        "Optimize app performance for smoother user experience",
+        "Implement robust error handling and logging",
+        "Provide regular app updates and maintenance",
+        "Enhance user feedback mechanisms for issue reporting"
+      ],
+      "linked_theme": "Technical Issues and App Performance"
+    },
+    {
+      "action": "Enhance Customer Support and Account Management",
+      "bullet_points": [
+        "Increase customer support staff and training",
+        "Implement efficient issue resolution processes",
+        "Provide clear and concise account management information",
+        "Offer multiple support channels for user convenience",
+        "Monitor and improve support quality through user feedback"
+      ],
+      "linked_theme": "Customer Support and Account Management"
+    },
+    {
+      "action": "Review and Optimize Fees and Charges",
+      "bullet_points": [
+        "Conduct competitive fee structure analysis",
+        "Review and adjust brokerage charges and fees",
+        "Implement transparent and clear fee disclosure",
+        "Offer flexible pricing plans and promotions",
+        "Monitor user feedback and adjust fees accordingly"
+      ],
+      "linked_theme": "Fees and Charges"
+    }
+  ],
+  "coverage_note": "App Store pages 1-6 returned no review entries; pagination continued."
+}

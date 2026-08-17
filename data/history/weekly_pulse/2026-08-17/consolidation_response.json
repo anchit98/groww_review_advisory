@@ -1,0 +1,115 @@
+{
+  "final_themes": [
+    {
+      "final_theme_id": "FT-1",
+      "final_theme_name": "Technical Issues and App Performance",
+      "sentiment": "negative",
+      "summary": "Users are experiencing technical issues with the app, including glitches, slow performance, and difficulties with login and verification.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-2",
+        "CT-002",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "563386844f9189b2a673c1707612b748951f02ecef531580f3a0e9630e384980",
+        "70d594db375426e5c57e3d35731953ce1d55a1911ca46761a03c235ef7ae0fbc",
+        "96cf43429f569076a1f9ed22b67081f6f804d1e5908f344af1593011519b8795",
+        "b4e9d54023414ee47023cc109dfc2b584a3f3bff33dcfcdb92cf4acd5ec89f9b",
+        "09d3c88a5868cdba5ba15a959db2adc3f86637684d0f307f33569015e610f6d3",
+        "13f23e74c7ef64ad56def0bd0a309e42cfbdf2723d53dd95d4e013c1a28f3674",
+        "7cbb9363cd7892a8f499b1ba5a4c363d041fa3d2b7202f2baa8032a4f9bfcf4f",
+        "658db81478f5c34792abbe935599dcfceb5f60d5ce8ea77cc1aeb1f6b4538d2b",
+        "c1aef08d4e613c6846f1c186987762a23c7887f234954b4324a7b287fca436e3"
+      ],
+      "why_this_theme_matters": "Technical issues can lead to a poor user experience, causing frustration and potentially driving users away from the app.",
+      "priority_rank": 1
+    },
+    {
+      "final_theme_id": "FT-2",
+      "final_theme_name": "Customer Support and Account Management",
+      "sentiment": "negative",
+      "summary": "Users are experiencing difficulties with customer support, including unresponsive representatives and unhelpful responses, as well as issues with account management, such as difficulties with withdrawals and account closures.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "367db29d5ba25fccb49092da5aefd292c3b3b340c31808888c186a1d2851419c",
+        "3b4ae2618f4a37339acef21de1948a2798a983a6d87c717d799e430e396f517a",
+        "46e7b1c1befc8f0282e3afc3430322201e3fb816cf2d36c59e6fee638638d099",
+        "5220a1b8e7f4c9c24bfe58ee8f05a483efc22d64808ebf9628b9f6fb0363f2e7",
+        "563386844f9189b2a673c1707612b748951f02ecef531580f3a0e9630e384980",
+        "9c5d529679337cc14b3c7e0c456a2ea032c13903d552e93dd0febebbece2746c",
+        "b4bf46c552f28217c4465bf29f3bc5f1d21a3e523f71ed409fb7d05ce9900aaf",
+        "c7665cdca2b4cdaa99528340bdd663a06e8c366c502f4ccd9a169702fb7c3de0",
+        "d633d8ee16408375bf9146857b6778f14e84f77b2ad5e6903eb0cd233b3ec619",
+        "f8d82d968fc7bb50c7d56ad0cb9fef3a075bcb3a56e43f9a135624f050c97dce",
+        "d1d410234b28c5c2db53174ef3b6dc0a2c9396745f902b23da97c1d1772b362a",
+        "4fbb51cacc289f51363d9c757fcc9beb03ab429627e9086760ecef7e8ef6d5d3",
+        "00c0031c10ad04b5206fc8426b2c4e8e90251e6b7b1d056d023f4229d6963898"
+      ],
+      "why_this_theme_matters": "Poor customer support and account management can lead to user frustration, negative reviews, and ultimately, a loss of business.",
+      "priority_rank": 2
+    },
+    {
+      "final_theme_id": "FT-3",
+      "final_theme_name": "Fees and Charges",
+      "sentiment": "mixed",
+      "summary": "Some users are concerned about the fees and charges associated with the app, including high brokerage charges and unexpected deductions.",
+      "supporting_candidate_theme_ids": [
+        "theme-3",
+        "CT-003"
+      ],
+      "supporting_review_ids": [
+        "2e9b8fb5454694d00a5a02d282c6b826d31313cc8927ebc3d0de6ba8976034d8",
+        "97438ec02ec3f77b10c668413689b21ffe230dbc07ff8f1c0d047f1aeabb963c",
+        "4fd7204bcdb9c34f4195cf0564413a62a344737f828149953647b9858f052eaa",
+        "c5ea601467e543f199a39190b81141ac4f3cc27ee2b7022e192d7ebe5bfe1b47",
+        "7781d70f4685785a81ba14db3245d235e2d868bd635ed4174cb33657ebcaf9a9"
+      ],
+      "why_this_theme_matters": "High fees and charges can be a major turn-off for users, leading to negative reviews and a loss of business.",
+      "priority_rank": 3
+    },
+    {
+      "final_theme_id": "FT-4",
+      "final_theme_name": "Ease of Use and User Interface",
+      "sentiment": "positive",
+      "summary": "Users find the app easy to use and navigate, with a simple and intuitive interface.",
+      "supporting_candidate_theme_ids": [
+        "theme-1",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "45486e5801930b818dad3cabd1161b7058fe441a54026630c4d0a75974189314",
+        "50183fe366d4a5768a9a1a46762105bb7374250b6fb94e8fe1c00747c30c8f72",
+        "5a6b77dce7b3c82911c5e93d4f40dd9626be8deb39d44e63caf0b8b06f9a9816",
+        "5b941431cbefd3e378b2fb696da2426a480f8bd834fd88f2d0c348d148b3e89a",
+        "986a96e6dff468ec8e0f4a4a823f4b757eac047936d138115828dff2b4f716a4",
+        "e3a88c1230cffd2d00cbf425d88446784d3a584cf39823e67ff13f23a707732c"
+      ],
+      "why_this_theme_matters": "An easy-to-use and intuitive interface can lead to a positive user experience, increasing user engagement and retention.",
+      "priority_rank": 4
+    },
+    {
+      "final_theme_id": "FT-5",
+      "final_theme_name": "Investment Features and Trading Experience",
+      "sentiment": "positive",
+      "summary": "Users appreciate the app's investment features, such as mutual funds and stocks, and are satisfied with their trading experience on the app.",
+      "supporting_candidate_theme_ids": [
+        "theme-2",
+        "theme-3"
+      ],
+      "supporting_review_ids": [
+        "a988c529bc20f55c454a5eafcdd211a9af01b7e683410c43a4d2ceacc10cf8ee",
+        "4e91b62924d111c892603dc0eb4547c654180e41817dd3c2d756fb80bb48f436",
+        "f212fa01fe76ccddb6cc36a533895a785f858f6b3510c0171add540b965067a5",
+        "11b59ae7248997b788bf7afd24e7392223ce6dbd6df71f414cab00ef2021d40e",
+        "5d49ca25debe76a75fc4a33f7d6f369b4c16e243fafaa85a55ef3275a4d5786b",
+        "7c379862463529eb3d9815a6022b67d5d63c3329199948ea21f4943dbdd4af22"
+      ],
+      "why_this_theme_matters": "A positive trading experience and robust investment features can lead to user satisfaction, increasing user engagement and retention.",
+      "priority_rank": 5
+    }
+  ]
+}
